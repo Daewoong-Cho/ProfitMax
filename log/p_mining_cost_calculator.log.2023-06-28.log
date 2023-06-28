@@ -1,0 +1,13 @@
+2023/06/28 23:09:58 Location ID: QLD1, Other Cost: 3.00
+2023/06/28 23:09:58 Location ID: QLD1, Energy Cost: 1112930.81
+2023/06/28 23:09:58 Consumer group session is being set up
+2023/06/28 23:09:58 Message received: Topic=private.mining.energycost, Partition=0, Offset=869, Key=, Value={"symbol":"BTC","difficulty":52350439455487,"energy_price":100.51909,"energy_cost":1112930.8131372684}
+2023/06/28 23:09:58 [OUT]: {"location_id":"QLD1","energy_cost":1112930.8131372684,"other_cost":3,"total_cost":1112933.8131372684}
+2023/06/28 23:10:00 Message received: Topic=private.mining.energycost, Partition=0, Offset=870, Key=, Value={"symbol":"BTC","difficulty":52350439455487,"energy_price":105.01,"energy_cost":1162653.4291898638}
+2023/06/28 23:10:00 [OUT]: {"location_id":"QLD1","energy_cost":1162653.4291898638,"other_cost":3,"total_cost":1162656.4291898638}
+2023/06/28 23:10:40 Message received: Topic=private.mining.energycost, Partition=0, Offset=871, Key=, Value={"symbol":"BTC","difficulty":52350439455487,"energy_price":94.75,"energy_cost":1049056.3985881307}
+2023/06/28 23:10:40 [OUT]: {"location_id":"QLD1","energy_cost":1049056.3985881307,"other_cost":3,"total_cost":1049059.3985881307}
+2023/06/28 23:15:50 Message received: Topic=private.mining.energycost, Partition=0, Offset=872, Key=, Value={"symbol":"BTC","difficulty":52350439455487,"energy_price":93.26099,"energy_cost":1032570.3250465821}
+2023/06/28 23:15:50 [OUT]: {"location_id":"QLD1","energy_cost":1032570.3250465821,"other_cost":3,"total_cost":1032573.3250465821}
+2023/06/28 23:20:20 Message received: Topic=private.mining.energycost, Partition=0, Offset=873, Key=, Value={"symbol":"BTC","difficulty":52350439455487,"energy_price":82.6741,"energy_cost":915354.0221901316}
+2023/06/28 23:20:20 [OUT]: {"location_id":"QLD1","energy_cost":915354.0221901316,"other_cost":3,"total_cost":915357.0221901316}

@@ -1,0 +1,293 @@
+2023/06/28 23:09:54 Consumer group session is being set up
+2023/06/28 23:09:54 Message received: Topic=private.mining.incentive, Partition=0, Offset=11213, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:09:54 [OUT]: {"symbol":"BTC","mining_cost":0,"mining_incentive":0,"profits":0,"crypto_price":0}
+2023/06/28 23:09:55 Message received: Topic=public.cryptoprice, Partition=0, Offset=24228, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:09:55 [OUT]: {"symbol":"BTC","mining_cost":0,"mining_incentive":0,"profits":0,"crypto_price":45449.51}
+2023/06/28 23:09:58 Message received: Topic=private.mining.cost, Partition=0, Offset=23, Key=, Value={"location_id":"QLD1","energy_cost":1112930.8131372684,"other_cost":3,"total_cost":1112933.8131372684}
+2023/06/28 23:09:58 [OUT]: {"symbol":"BTC","mining_cost":1112933.8131372684,"mining_incentive":0,"profits":0,"crypto_price":45449.51}
+2023/06/28 23:09:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11214, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:09:59 [OUT]: {"symbol":"BTC","mining_cost":1112933.8131372684,"mining_incentive":284059.4375,"profits":-828874.3756372684,"crypto_price":45449.51}
+2023/06/28 23:10:00 Message received: Topic=private.mining.cost, Partition=0, Offset=24, Key=, Value={"location_id":"QLD1","energy_cost":1162653.4291898638,"other_cost":3,"total_cost":1162656.4291898638}
+2023/06/28 23:10:00 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24229, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:04 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11215, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:09 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24230, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:14 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:19 Message received: Topic=private.mining.incentive, Partition=0, Offset=11216, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:19 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24231, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:24 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11217, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:29 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24232, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:34 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11218, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:39 [OUT]: {"symbol":"BTC","mining_cost":1162656.4291898638,"mining_incentive":284059.4375,"profits":-878596.9916898638,"crypto_price":45449.51}
+2023/06/28 23:10:40 Message received: Topic=private.mining.cost, Partition=0, Offset=25, Key=, Value={"location_id":"QLD1","energy_cost":1049056.3985881307,"other_cost":3,"total_cost":1049059.3985881307}
+2023/06/28 23:10:40 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:10:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24233, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:44 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:10:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11219, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:49 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:10:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24234, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:54 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:00 Message received: Topic=private.mining.incentive, Partition=0, Offset=11220, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:00 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24235, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:04 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11221, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:09 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24236, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:14 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:20 Message received: Topic=private.mining.incentive, Partition=0, Offset=11222, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:20 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24237, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:24 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:30 Message received: Topic=private.mining.incentive, Partition=0, Offset=11223, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:30 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24238, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:34 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11224, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:39 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24239, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:44 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:50 Message received: Topic=private.mining.incentive, Partition=0, Offset=11225, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:50 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24240, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:54 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:11:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11226, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:59 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:12:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24241, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:12:04 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:12:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11227, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:09 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:12:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24242, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:12:14 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:12:19 Message received: Topic=private.mining.incentive, Partition=0, Offset=11228, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:19 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45449.51}
+2023/06/28 23:12:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24243, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:12:24 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284059.4375,"profits":-764999.9610881307,"crypto_price":45475.39}
+2023/06/28 23:12:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11229, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:29 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:12:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24244, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:12:34 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:12:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11230, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:39 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:12:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24245, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:12:44 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:12:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11231, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:49 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:12:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24246, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:12:54 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:12:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11232, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:59 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24247, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:13:04 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11233, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:09 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24248, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:13:14 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:19 Message received: Topic=private.mining.incentive, Partition=0, Offset=11234, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:19 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24249, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:13:24 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11235, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:29 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24250, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:13:34 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:40 Message received: Topic=private.mining.incentive, Partition=0, Offset=11236, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:40 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45475.39}
+2023/06/28 23:13:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24251, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:13:44 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284221.1875,"profits":-764838.2110881307,"crypto_price":45568.63}
+2023/06/28 23:13:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11237, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:49 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:13:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24252, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:13:54 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:13:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11238, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:59 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24253, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:04 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11239, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:09 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24254, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:14 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:20 Message received: Topic=private.mining.incentive, Partition=0, Offset=11240, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:20 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24255, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:24 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11241, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:29 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24256, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:34 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11242, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:39 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24257, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:44 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11243, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:49 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24258, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:54 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:14:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11244, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:59 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24259, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:04 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11245, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:09 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24260, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:14 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:19 Message received: Topic=private.mining.incentive, Partition=0, Offset=11246, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:19 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24261, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:24 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11247, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:29 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24262, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:34 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11248, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:39 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24263, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:44 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11249, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:49 [OUT]: {"symbol":"BTC","mining_cost":1049059.3985881307,"mining_incentive":284803.9375,"profits":-764255.4610881307,"crypto_price":45568.63}
+2023/06/28 23:15:50 Message received: Topic=private.mining.cost, Partition=0, Offset=26, Key=, Value={"location_id":"QLD1","energy_cost":1032570.3250465821,"other_cost":3,"total_cost":1032573.3250465821}
+2023/06/28 23:15:50 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:15:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24264, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:54 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:15:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11250, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:59 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24265, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:04 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11251, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:09 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24266, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:14 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:19 Message received: Topic=private.mining.incentive, Partition=0, Offset=11252, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:19 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24267, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:24 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11253, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:29 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24268, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:34 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11254, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:39 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24269, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:44 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11255, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:49 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24270, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:54 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:16:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11256, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:59 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24271, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:04 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11257, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:09 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24272, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:14 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:19 Message received: Topic=private.mining.incentive, Partition=0, Offset=11258, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:19 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24273, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:24 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11259, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:29 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24274, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:34 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11260, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:39 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24275, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:44 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11261, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:49 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24276, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:54 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:17:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11262, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:59 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24277, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:04 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11263, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:09 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24278, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:14 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:20 Message received: Topic=private.mining.incentive, Partition=0, Offset=11264, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:20 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24279, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:24 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11265, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:29 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24280, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:34 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11266, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:39 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24281, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:44 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11267, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:49 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:18:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24282, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:54 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:00 Message received: Topic=private.mining.incentive, Partition=0, Offset=11268, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:00 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24283, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:04 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11269, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:09 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24284, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:14 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:20 Message received: Topic=private.mining.incentive, Partition=0, Offset=11270, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:20 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24285, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:24 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11271, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:29 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24286, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:34 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11272, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:39 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24287, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:44 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:50 Message received: Topic=private.mining.incentive, Partition=0, Offset=11273, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:50 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24288, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:54 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:19:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11274, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:59 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:20:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24289, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:04 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:20:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11275, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:09 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:20:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24290, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:14 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:20:19 Message received: Topic=private.mining.incentive, Partition=0, Offset=11276, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:19 [OUT]: {"symbol":"BTC","mining_cost":1032573.3250465821,"mining_incentive":284803.9375,"profits":-747769.3875465821,"crypto_price":45568.63}
+2023/06/28 23:20:20 Message received: Topic=private.mining.cost, Partition=0, Offset=27, Key=, Value={"location_id":"QLD1","energy_cost":915354.0221901316,"other_cost":3,"total_cost":915357.0221901316}
+2023/06/28 23:20:20 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:20:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24291, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:24 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:20:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11277, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:29 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:20:34 Message received: Topic=public.cryptoprice, Partition=0, Offset=24292, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:34 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:20:39 Message received: Topic=private.mining.incentive, Partition=0, Offset=11278, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:39 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:20:44 Message received: Topic=public.cryptoprice, Partition=0, Offset=24293, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:44 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:20:49 Message received: Topic=private.mining.incentive, Partition=0, Offset=11279, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:49 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:20:54 Message received: Topic=public.cryptoprice, Partition=0, Offset=24294, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:54 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:20:59 Message received: Topic=private.mining.incentive, Partition=0, Offset=11280, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:59 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:21:04 Message received: Topic=public.cryptoprice, Partition=0, Offset=24295, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:21:04 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:21:09 Message received: Topic=private.mining.incentive, Partition=0, Offset=11281, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:21:09 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:21:14 Message received: Topic=public.cryptoprice, Partition=0, Offset=24296, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:21:14 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:21:19 Message received: Topic=private.mining.incentive, Partition=0, Offset=11282, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:21:19 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:21:24 Message received: Topic=public.cryptoprice, Partition=0, Offset=24297, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:21:24 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}
+2023/06/28 23:21:29 Message received: Topic=private.mining.incentive, Partition=0, Offset=11283, Key=, Value={"symbol":"BTC","reward":6.25}
+2023/06/28 23:21:29 [OUT]: {"symbol":"BTC","mining_cost":915357.0221901316,"mining_incentive":284803.9375,"profits":-630553.0846901316,"crypto_price":45568.63}

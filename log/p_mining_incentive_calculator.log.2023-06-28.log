@@ -1,0 +1,144 @@
+2023/06/28 23:09:54 Blockchain: BTC, Subsidy: 6.25, Last Updated: 2023-06-27 20:59:41
+2023/06/28 23:09:54 Consumer group session is being set up
+2023/06/28 23:09:54 Message received: Topic=public.block.subsidy, Partition=0, Offset=15846, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:09:54 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:09:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15847, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:09:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15848, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:10:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:19 Message received: Topic=public.block.subsidy, Partition=0, Offset=15849, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:10:19 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15850, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:10:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15851, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:10:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:10:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15852, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:10:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:00 Message received: Topic=public.block.subsidy, Partition=0, Offset=15853, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:11:00 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15854, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:11:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:20 Message received: Topic=public.block.subsidy, Partition=0, Offset=15855, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:11:20 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:30 Message received: Topic=public.block.subsidy, Partition=0, Offset=15856, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:11:30 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15857, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:11:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:50 Message received: Topic=public.block.subsidy, Partition=0, Offset=15858, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:11:50 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:11:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15859, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:11:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15860, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:12:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:19 Message received: Topic=public.block.subsidy, Partition=0, Offset=15861, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:12:19 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15862, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:12:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15863, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:12:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15864, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:12:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:12:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15865, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:12:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15866, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:13:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:19 Message received: Topic=public.block.subsidy, Partition=0, Offset=15867, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:13:19 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15868, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:13:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:40 Message received: Topic=public.block.subsidy, Partition=0, Offset=15869, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:13:40 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15870, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:13:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:13:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15871, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:13:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15872, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:14:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:20 Message received: Topic=public.block.subsidy, Partition=0, Offset=15873, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:14:20 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15874, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:14:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15875, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:14:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15876, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:14:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:14:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15877, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:14:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15878, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:15:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:19 Message received: Topic=public.block.subsidy, Partition=0, Offset=15879, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:15:19 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15880, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:15:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15881, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:15:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15882, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:15:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:15:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15883, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:15:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15884, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:16:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:19 Message received: Topic=public.block.subsidy, Partition=0, Offset=15885, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:16:19 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15886, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:16:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15887, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:16:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15888, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:16:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:16:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15889, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:16:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15890, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:17:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:19 Message received: Topic=public.block.subsidy, Partition=0, Offset=15891, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:17:19 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15892, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:17:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15893, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:17:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15894, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:17:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:17:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15895, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:17:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15896, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:18:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:20 Message received: Topic=public.block.subsidy, Partition=0, Offset=15897, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:18:20 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15898, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:18:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15899, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:18:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:18:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15900, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:18:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:00 Message received: Topic=public.block.subsidy, Partition=0, Offset=15901, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:19:00 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15902, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:19:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:20 Message received: Topic=public.block.subsidy, Partition=0, Offset=15903, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:19:20 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15904, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:19:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15905, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:19:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15906, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:19:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:19:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15907, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:19:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15908, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:20:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:19 Message received: Topic=public.block.subsidy, Partition=0, Offset=15909, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:20:19 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15910, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:20:29 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:39 Message received: Topic=public.block.subsidy, Partition=0, Offset=15911, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:20:39 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:49 Message received: Topic=public.block.subsidy, Partition=0, Offset=15912, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:20:49 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:20:59 Message received: Topic=public.block.subsidy, Partition=0, Offset=15913, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:20:59 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:21:09 Message received: Topic=public.block.subsidy, Partition=0, Offset=15914, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:21:09 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:21:19 Message received: Topic=public.block.subsidy, Partition=0, Offset=15915, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:21:19 [OUT]: {"symbol":"BTC","reward":6.25}
+2023/06/28 23:21:29 Message received: Topic=public.block.subsidy, Partition=0, Offset=15916, Key=, Value={"message_type":"","symbol":"BTC","value":6.25}
+2023/06/28 23:21:29 [OUT]: {"symbol":"BTC","reward":6.25}

@@ -1,0 +1,9 @@
+{
+    "log_path": "/home/david/ProfitMax/log",
+    "log_file": "p_energy_price_api.log",
+    "url": "https://visualisations.aemo.com.au/aemo/apps/api/report/ELEC_NEM_SUMMARY",
+    "kafka_broker": "10.0.2.15:9092",
+    "publish_topic": "public.energyprice",    
+    "currency": "AUD",
+    "time_interval": 10
+}

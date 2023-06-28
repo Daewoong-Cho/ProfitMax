@@ -1,0 +1,700 @@
+2023/06/28 23:10:00 Received message: Topic=public.energyprice, Partition=0, Offset=79610, Key=, Value={"location_id":"NSW1","currency":"AUD","price":98.6926}
+2023/06/28 23:10:00 Location ID: NSW1, Currency Code: AUD, Price: 89.45, Last Updated: 2023-06-27 11:20:33
+2023/06/28 23:10:00 Received message: Topic=public.energyprice, Partition=0, Offset=79611, Key=, Value={"location_id":"QLD1","currency":"AUD","price":105.01}
+2023/06/28 23:10:00 Location ID: QLD1, Currency Code: AUD, Price: 100.52, Last Updated: 2023-06-27 11:20:33
+2023/06/28 23:10:00 Received message: Topic=public.energyprice, Partition=0, Offset=79612, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:10:00 Location ID: SA1, Currency Code: AUD, Price: 352.00, Last Updated: 2023-06-27 11:20:34
+2023/06/28 23:10:00 Received message: Topic=public.energyprice, Partition=0, Offset=79613, Key=, Value={"location_id":"TAS1","currency":"AUD","price":76.28839}
+2023/06/28 23:10:00 Location ID: TAS1, Currency Code: AUD, Price: 54.30, Last Updated: 2023-06-27 06:01:46
+2023/06/28 23:10:01 Received message: Topic=public.energyprice, Partition=0, Offset=79614, Key=, Value={"location_id":"VIC1","currency":"AUD","price":81.23355}
+2023/06/28 23:10:01 Location ID: VIC1, Currency Code: AUD, Price: 69.85, Last Updated: 2023-06-27 11:20:34
+2023/06/28 23:10:10 Received message: Topic=public.energyprice, Partition=0, Offset=79615, Key=, Value={"location_id":"NSW1","currency":"AUD","price":98.6926}
+2023/06/28 23:10:10 Location ID: NSW1, Currency Code: AUD, Price: 98.69, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:10 Received message: Topic=public.energyprice, Partition=0, Offset=79616, Key=, Value={"location_id":"QLD1","currency":"AUD","price":105.01}
+2023/06/28 23:10:10 Location ID: QLD1, Currency Code: AUD, Price: 105.01, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:10 Received message: Topic=public.energyprice, Partition=0, Offset=79617, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:10:10 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:10 Received message: Topic=public.energyprice, Partition=0, Offset=79618, Key=, Value={"location_id":"TAS1","currency":"AUD","price":76.28839}
+2023/06/28 23:10:10 Location ID: TAS1, Currency Code: AUD, Price: 76.29, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:10 Received message: Topic=public.energyprice, Partition=0, Offset=79619, Key=, Value={"location_id":"VIC1","currency":"AUD","price":81.23355}
+2023/06/28 23:10:10 Location ID: VIC1, Currency Code: AUD, Price: 81.23, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:20 Received message: Topic=public.energyprice, Partition=0, Offset=79620, Key=, Value={"location_id":"NSW1","currency":"AUD","price":98.6926}
+2023/06/28 23:10:20 Location ID: NSW1, Currency Code: AUD, Price: 98.69, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:20 Received message: Topic=public.energyprice, Partition=0, Offset=79621, Key=, Value={"location_id":"QLD1","currency":"AUD","price":105.01}
+2023/06/28 23:10:20 Location ID: QLD1, Currency Code: AUD, Price: 105.01, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:20 Received message: Topic=public.energyprice, Partition=0, Offset=79622, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:10:20 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:20 Received message: Topic=public.energyprice, Partition=0, Offset=79623, Key=, Value={"location_id":"TAS1","currency":"AUD","price":76.28839}
+2023/06/28 23:10:20 Location ID: TAS1, Currency Code: AUD, Price: 76.29, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:20 Received message: Topic=public.energyprice, Partition=0, Offset=79624, Key=, Value={"location_id":"VIC1","currency":"AUD","price":81.23355}
+2023/06/28 23:10:20 Location ID: VIC1, Currency Code: AUD, Price: 81.23, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:30 Received message: Topic=public.energyprice, Partition=0, Offset=79625, Key=, Value={"location_id":"NSW1","currency":"AUD","price":98.6926}
+2023/06/28 23:10:30 Location ID: NSW1, Currency Code: AUD, Price: 98.69, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:30 Received message: Topic=public.energyprice, Partition=0, Offset=79626, Key=, Value={"location_id":"QLD1","currency":"AUD","price":105.01}
+2023/06/28 23:10:30 Location ID: QLD1, Currency Code: AUD, Price: 105.01, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:30 Received message: Topic=public.energyprice, Partition=0, Offset=79627, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:10:30 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:30 Received message: Topic=public.energyprice, Partition=0, Offset=79628, Key=, Value={"location_id":"TAS1","currency":"AUD","price":76.28839}
+2023/06/28 23:10:30 Location ID: TAS1, Currency Code: AUD, Price: 76.29, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:30 Received message: Topic=public.energyprice, Partition=0, Offset=79629, Key=, Value={"location_id":"VIC1","currency":"AUD","price":81.23355}
+2023/06/28 23:10:30 Location ID: VIC1, Currency Code: AUD, Price: 81.23, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:40 Received message: Topic=public.energyprice, Partition=0, Offset=79630, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:10:40 Location ID: NSW1, Currency Code: AUD, Price: 98.69, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:40 Received message: Topic=public.energyprice, Partition=0, Offset=79631, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:10:40 Location ID: QLD1, Currency Code: AUD, Price: 105.01, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:40 Received message: Topic=public.energyprice, Partition=0, Offset=79632, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:10:40 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:40 Received message: Topic=public.energyprice, Partition=0, Offset=79633, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:10:40 Location ID: TAS1, Currency Code: AUD, Price: 76.29, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:40 Received message: Topic=public.energyprice, Partition=0, Offset=79634, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:10:40 Location ID: VIC1, Currency Code: AUD, Price: 81.23, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:50 Received message: Topic=public.energyprice, Partition=0, Offset=79635, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:10:50 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:10:50 Received message: Topic=public.energyprice, Partition=0, Offset=79636, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:10:50 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:10:50 Received message: Topic=public.energyprice, Partition=0, Offset=79637, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:10:50 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:10:50 Received message: Topic=public.energyprice, Partition=0, Offset=79638, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:10:50 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:10:50 Received message: Topic=public.energyprice, Partition=0, Offset=79639, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:10:50 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:11:00 Received message: Topic=public.energyprice, Partition=0, Offset=79640, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:11:00 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:00 Received message: Topic=public.energyprice, Partition=0, Offset=79641, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:11:00 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:00 Received message: Topic=public.energyprice, Partition=0, Offset=79642, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:11:00 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:11:00 Received message: Topic=public.energyprice, Partition=0, Offset=79643, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:11:00 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:00 Received message: Topic=public.energyprice, Partition=0, Offset=79644, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:11:00 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:11:10 Received message: Topic=public.energyprice, Partition=0, Offset=79645, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:11:10 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:10 Received message: Topic=public.energyprice, Partition=0, Offset=79646, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:11:10 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:10 Received message: Topic=public.energyprice, Partition=0, Offset=79647, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:11:10 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:11:10 Received message: Topic=public.energyprice, Partition=0, Offset=79648, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:11:10 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:10 Received message: Topic=public.energyprice, Partition=0, Offset=79649, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:11:10 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:11:20 Received message: Topic=public.energyprice, Partition=0, Offset=79650, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:11:20 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:20 Received message: Topic=public.energyprice, Partition=0, Offset=79651, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:11:20 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:20 Received message: Topic=public.energyprice, Partition=0, Offset=79652, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:11:20 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:11:20 Received message: Topic=public.energyprice, Partition=0, Offset=79653, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:11:20 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:20 Received message: Topic=public.energyprice, Partition=0, Offset=79654, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:11:20 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:11:30 Received message: Topic=public.energyprice, Partition=0, Offset=79655, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:11:30 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:30 Received message: Topic=public.energyprice, Partition=0, Offset=79656, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:11:30 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:30 Received message: Topic=public.energyprice, Partition=0, Offset=79657, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:11:30 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:11:30 Received message: Topic=public.energyprice, Partition=0, Offset=79658, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:11:30 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:30 Received message: Topic=public.energyprice, Partition=0, Offset=79659, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:11:30 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:11:40 Received message: Topic=public.energyprice, Partition=0, Offset=79660, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:11:40 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:40 Received message: Topic=public.energyprice, Partition=0, Offset=79661, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:11:40 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:40 Received message: Topic=public.energyprice, Partition=0, Offset=79662, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:11:40 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:11:40 Received message: Topic=public.energyprice, Partition=0, Offset=79663, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:11:40 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:40 Received message: Topic=public.energyprice, Partition=0, Offset=79664, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:11:40 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:11:50 Received message: Topic=public.energyprice, Partition=0, Offset=79665, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:11:50 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:50 Received message: Topic=public.energyprice, Partition=0, Offset=79666, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:11:50 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:50 Received message: Topic=public.energyprice, Partition=0, Offset=79667, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:11:50 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:11:50 Received message: Topic=public.energyprice, Partition=0, Offset=79668, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:11:50 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:11:50 Received message: Topic=public.energyprice, Partition=0, Offset=79669, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:11:50 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:12:00 Received message: Topic=public.energyprice, Partition=0, Offset=79670, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:12:00 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:00 Received message: Topic=public.energyprice, Partition=0, Offset=79671, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:12:00 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:00 Received message: Topic=public.energyprice, Partition=0, Offset=79672, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:12:00 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:12:00 Received message: Topic=public.energyprice, Partition=0, Offset=79673, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:12:00 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:00 Received message: Topic=public.energyprice, Partition=0, Offset=79674, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:12:00 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:12:10 Received message: Topic=public.energyprice, Partition=0, Offset=79675, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:12:10 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:10 Received message: Topic=public.energyprice, Partition=0, Offset=79676, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:12:10 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:10 Received message: Topic=public.energyprice, Partition=0, Offset=79677, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:12:10 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:12:10 Received message: Topic=public.energyprice, Partition=0, Offset=79678, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:12:10 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:10 Received message: Topic=public.energyprice, Partition=0, Offset=79679, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:12:10 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:12:20 Received message: Topic=public.energyprice, Partition=0, Offset=79680, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:12:20 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:20 Received message: Topic=public.energyprice, Partition=0, Offset=79681, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:12:20 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:20 Received message: Topic=public.energyprice, Partition=0, Offset=79682, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:12:20 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:12:20 Received message: Topic=public.energyprice, Partition=0, Offset=79683, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:12:20 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:20 Received message: Topic=public.energyprice, Partition=0, Offset=79684, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:12:20 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:12:30 Received message: Topic=public.energyprice, Partition=0, Offset=79685, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:12:30 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:30 Received message: Topic=public.energyprice, Partition=0, Offset=79686, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:12:30 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:30 Received message: Topic=public.energyprice, Partition=0, Offset=79687, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:12:30 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:12:30 Received message: Topic=public.energyprice, Partition=0, Offset=79688, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:12:30 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:30 Received message: Topic=public.energyprice, Partition=0, Offset=79689, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:12:30 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:12:40 Received message: Topic=public.energyprice, Partition=0, Offset=79690, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:12:40 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:40 Received message: Topic=public.energyprice, Partition=0, Offset=79691, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:12:40 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:40 Received message: Topic=public.energyprice, Partition=0, Offset=79692, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:12:40 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:12:40 Received message: Topic=public.energyprice, Partition=0, Offset=79693, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:12:40 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:40 Received message: Topic=public.energyprice, Partition=0, Offset=79694, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:12:40 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:12:50 Received message: Topic=public.energyprice, Partition=0, Offset=79695, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:12:50 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:50 Received message: Topic=public.energyprice, Partition=0, Offset=79696, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:12:50 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:50 Received message: Topic=public.energyprice, Partition=0, Offset=79697, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:12:50 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:12:50 Received message: Topic=public.energyprice, Partition=0, Offset=79698, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:12:50 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:12:50 Received message: Topic=public.energyprice, Partition=0, Offset=79699, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:12:50 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:13:00 Received message: Topic=public.energyprice, Partition=0, Offset=79700, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:13:00 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:00 Received message: Topic=public.energyprice, Partition=0, Offset=79701, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:13:00 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:00 Received message: Topic=public.energyprice, Partition=0, Offset=79702, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:13:00 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:13:00 Received message: Topic=public.energyprice, Partition=0, Offset=79703, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:13:00 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:00 Received message: Topic=public.energyprice, Partition=0, Offset=79704, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:13:00 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:13:10 Received message: Topic=public.energyprice, Partition=0, Offset=79705, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:13:10 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:10 Received message: Topic=public.energyprice, Partition=0, Offset=79706, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:13:10 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:10 Received message: Topic=public.energyprice, Partition=0, Offset=79707, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:13:10 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:13:10 Received message: Topic=public.energyprice, Partition=0, Offset=79708, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:13:10 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:10 Received message: Topic=public.energyprice, Partition=0, Offset=79709, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:13:10 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:13:20 Received message: Topic=public.energyprice, Partition=0, Offset=79710, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:13:20 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:20 Received message: Topic=public.energyprice, Partition=0, Offset=79711, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:13:20 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:20 Received message: Topic=public.energyprice, Partition=0, Offset=79712, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:13:20 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:13:20 Received message: Topic=public.energyprice, Partition=0, Offset=79713, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:13:20 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:20 Received message: Topic=public.energyprice, Partition=0, Offset=79714, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:13:20 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:13:30 Received message: Topic=public.energyprice, Partition=0, Offset=79715, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:13:30 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:30 Received message: Topic=public.energyprice, Partition=0, Offset=79716, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:13:30 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:30 Received message: Topic=public.energyprice, Partition=0, Offset=79717, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:13:30 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:13:30 Received message: Topic=public.energyprice, Partition=0, Offset=79718, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:13:30 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:30 Received message: Topic=public.energyprice, Partition=0, Offset=79719, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:13:30 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:13:40 Received message: Topic=public.energyprice, Partition=0, Offset=79720, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:13:40 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:40 Received message: Topic=public.energyprice, Partition=0, Offset=79721, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:13:40 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:40 Received message: Topic=public.energyprice, Partition=0, Offset=79722, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:13:40 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:13:40 Received message: Topic=public.energyprice, Partition=0, Offset=79723, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:13:40 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:40 Received message: Topic=public.energyprice, Partition=0, Offset=79724, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:13:40 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:13:50 Received message: Topic=public.energyprice, Partition=0, Offset=79725, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:13:50 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:50 Received message: Topic=public.energyprice, Partition=0, Offset=79726, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:13:50 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:50 Received message: Topic=public.energyprice, Partition=0, Offset=79727, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:13:50 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:13:50 Received message: Topic=public.energyprice, Partition=0, Offset=79728, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:13:50 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:13:50 Received message: Topic=public.energyprice, Partition=0, Offset=79729, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:13:50 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:14:00 Received message: Topic=public.energyprice, Partition=0, Offset=79730, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:14:00 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:00 Received message: Topic=public.energyprice, Partition=0, Offset=79731, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:14:00 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:00 Received message: Topic=public.energyprice, Partition=0, Offset=79732, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:14:00 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:14:00 Received message: Topic=public.energyprice, Partition=0, Offset=79733, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:14:00 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:00 Received message: Topic=public.energyprice, Partition=0, Offset=79734, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:14:00 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:14:10 Received message: Topic=public.energyprice, Partition=0, Offset=79735, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:14:10 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:10 Received message: Topic=public.energyprice, Partition=0, Offset=79736, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:14:10 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:10 Received message: Topic=public.energyprice, Partition=0, Offset=79737, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:14:10 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:14:10 Received message: Topic=public.energyprice, Partition=0, Offset=79738, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:14:10 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:10 Received message: Topic=public.energyprice, Partition=0, Offset=79739, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:14:10 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:14:20 Received message: Topic=public.energyprice, Partition=0, Offset=79740, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:14:20 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:20 Received message: Topic=public.energyprice, Partition=0, Offset=79741, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:14:20 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:20 Received message: Topic=public.energyprice, Partition=0, Offset=79742, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:14:20 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:14:20 Received message: Topic=public.energyprice, Partition=0, Offset=79743, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:14:20 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:20 Received message: Topic=public.energyprice, Partition=0, Offset=79744, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:14:20 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:14:30 Received message: Topic=public.energyprice, Partition=0, Offset=79745, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:14:30 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:30 Received message: Topic=public.energyprice, Partition=0, Offset=79746, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:14:30 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:30 Received message: Topic=public.energyprice, Partition=0, Offset=79747, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:14:30 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:14:30 Received message: Topic=public.energyprice, Partition=0, Offset=79748, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:14:30 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:30 Received message: Topic=public.energyprice, Partition=0, Offset=79749, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:14:30 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:14:40 Received message: Topic=public.energyprice, Partition=0, Offset=79750, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:14:40 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:40 Received message: Topic=public.energyprice, Partition=0, Offset=79751, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:14:40 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:40 Received message: Topic=public.energyprice, Partition=0, Offset=79752, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:14:40 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:14:40 Received message: Topic=public.energyprice, Partition=0, Offset=79753, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:14:40 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:40 Received message: Topic=public.energyprice, Partition=0, Offset=79754, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:14:40 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:14:50 Received message: Topic=public.energyprice, Partition=0, Offset=79755, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:14:50 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:50 Received message: Topic=public.energyprice, Partition=0, Offset=79756, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:14:50 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:50 Received message: Topic=public.energyprice, Partition=0, Offset=79757, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:14:50 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:14:50 Received message: Topic=public.energyprice, Partition=0, Offset=79758, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:14:50 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:14:50 Received message: Topic=public.energyprice, Partition=0, Offset=79759, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:14:50 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:15:00 Received message: Topic=public.energyprice, Partition=0, Offset=79760, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:15:00 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:00 Received message: Topic=public.energyprice, Partition=0, Offset=79761, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:15:00 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:00 Received message: Topic=public.energyprice, Partition=0, Offset=79762, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:15:00 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:15:00 Received message: Topic=public.energyprice, Partition=0, Offset=79763, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:15:00 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:00 Received message: Topic=public.energyprice, Partition=0, Offset=79764, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:15:00 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:15:10 Received message: Topic=public.energyprice, Partition=0, Offset=79765, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:15:10 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:10 Received message: Topic=public.energyprice, Partition=0, Offset=79766, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:15:10 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:10 Received message: Topic=public.energyprice, Partition=0, Offset=79767, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:15:10 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:15:10 Received message: Topic=public.energyprice, Partition=0, Offset=79768, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:15:10 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:10 Received message: Topic=public.energyprice, Partition=0, Offset=79769, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:15:10 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:15:20 Received message: Topic=public.energyprice, Partition=0, Offset=79770, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:15:20 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:20 Received message: Topic=public.energyprice, Partition=0, Offset=79771, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:15:20 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:20 Received message: Topic=public.energyprice, Partition=0, Offset=79772, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:15:20 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:15:20 Received message: Topic=public.energyprice, Partition=0, Offset=79773, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:15:20 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:20 Received message: Topic=public.energyprice, Partition=0, Offset=79774, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:15:20 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:15:30 Received message: Topic=public.energyprice, Partition=0, Offset=79775, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:15:30 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:30 Received message: Topic=public.energyprice, Partition=0, Offset=79776, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:15:30 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:30 Received message: Topic=public.energyprice, Partition=0, Offset=79777, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:15:30 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:15:30 Received message: Topic=public.energyprice, Partition=0, Offset=79778, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:15:30 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:30 Received message: Topic=public.energyprice, Partition=0, Offset=79779, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:15:30 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:15:40 Received message: Topic=public.energyprice, Partition=0, Offset=79780, Key=, Value={"location_id":"NSW1","currency":"AUD","price":90.37519}
+2023/06/28 23:15:40 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:40 Received message: Topic=public.energyprice, Partition=0, Offset=79781, Key=, Value={"location_id":"QLD1","currency":"AUD","price":94.75}
+2023/06/28 23:15:40 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:40 Received message: Topic=public.energyprice, Partition=0, Offset=79782, Key=, Value={"location_id":"SA1","currency":"AUD","price":298.44}
+2023/06/28 23:15:40 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:15:40 Received message: Topic=public.energyprice, Partition=0, Offset=79783, Key=, Value={"location_id":"TAS1","currency":"AUD","price":70.64392}
+2023/06/28 23:15:40 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:40 Received message: Topic=public.energyprice, Partition=0, Offset=79784, Key=, Value={"location_id":"VIC1","currency":"AUD","price":75.81137}
+2023/06/28 23:15:40 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:15:50 Received message: Topic=public.energyprice, Partition=0, Offset=79785, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:15:50 Location ID: NSW1, Currency Code: AUD, Price: 90.38, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:50 Received message: Topic=public.energyprice, Partition=0, Offset=79786, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:15:50 Location ID: QLD1, Currency Code: AUD, Price: 94.75, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:50 Received message: Topic=public.energyprice, Partition=0, Offset=79787, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:15:50 Location ID: SA1, Currency Code: AUD, Price: 298.44, Last Updated: 2023-06-28 13:10:01
+2023/06/28 23:15:50 Received message: Topic=public.energyprice, Partition=0, Offset=79788, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:15:50 Location ID: TAS1, Currency Code: AUD, Price: 70.64, Last Updated: 2023-06-28 13:10:40
+2023/06/28 23:15:50 Received message: Topic=public.energyprice, Partition=0, Offset=79789, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:15:50 Location ID: VIC1, Currency Code: AUD, Price: 75.81, Last Updated: 2023-06-28 13:10:41
+2023/06/28 23:16:00 Received message: Topic=public.energyprice, Partition=0, Offset=79790, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:16:00 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:00 Received message: Topic=public.energyprice, Partition=0, Offset=79791, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:16:00 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:00 Received message: Topic=public.energyprice, Partition=0, Offset=79792, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:16:00 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:00 Received message: Topic=public.energyprice, Partition=0, Offset=79793, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:16:00 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:00 Received message: Topic=public.energyprice, Partition=0, Offset=79794, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:16:00 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:10 Received message: Topic=public.energyprice, Partition=0, Offset=79795, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:16:10 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:10 Received message: Topic=public.energyprice, Partition=0, Offset=79796, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:16:10 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:10 Received message: Topic=public.energyprice, Partition=0, Offset=79797, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:16:10 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:10 Received message: Topic=public.energyprice, Partition=0, Offset=79798, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:16:10 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:10 Received message: Topic=public.energyprice, Partition=0, Offset=79799, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:16:10 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:20 Received message: Topic=public.energyprice, Partition=0, Offset=79800, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:16:20 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:20 Received message: Topic=public.energyprice, Partition=0, Offset=79801, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:16:20 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:20 Received message: Topic=public.energyprice, Partition=0, Offset=79802, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:16:20 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:20 Received message: Topic=public.energyprice, Partition=0, Offset=79803, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:16:20 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:20 Received message: Topic=public.energyprice, Partition=0, Offset=79804, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:16:20 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:30 Received message: Topic=public.energyprice, Partition=0, Offset=79805, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:16:30 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:30 Received message: Topic=public.energyprice, Partition=0, Offset=79806, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:16:30 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:30 Received message: Topic=public.energyprice, Partition=0, Offset=79807, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:16:30 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:30 Received message: Topic=public.energyprice, Partition=0, Offset=79808, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:16:30 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:30 Received message: Topic=public.energyprice, Partition=0, Offset=79809, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:16:30 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:40 Received message: Topic=public.energyprice, Partition=0, Offset=79810, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:16:40 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:40 Received message: Topic=public.energyprice, Partition=0, Offset=79811, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:16:40 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:40 Received message: Topic=public.energyprice, Partition=0, Offset=79812, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:16:40 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:40 Received message: Topic=public.energyprice, Partition=0, Offset=79813, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:16:40 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:40 Received message: Topic=public.energyprice, Partition=0, Offset=79814, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:16:40 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:50 Received message: Topic=public.energyprice, Partition=0, Offset=79815, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:16:50 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:50 Received message: Topic=public.energyprice, Partition=0, Offset=79816, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:16:50 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:16:50 Received message: Topic=public.energyprice, Partition=0, Offset=79817, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:16:50 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:50 Received message: Topic=public.energyprice, Partition=0, Offset=79818, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:16:50 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:16:50 Received message: Topic=public.energyprice, Partition=0, Offset=79819, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:16:50 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:00 Received message: Topic=public.energyprice, Partition=0, Offset=79820, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:17:00 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:00 Received message: Topic=public.energyprice, Partition=0, Offset=79821, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:17:00 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:00 Received message: Topic=public.energyprice, Partition=0, Offset=79822, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:17:00 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:00 Received message: Topic=public.energyprice, Partition=0, Offset=79823, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:17:00 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:00 Received message: Topic=public.energyprice, Partition=0, Offset=79824, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:17:00 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:10 Received message: Topic=public.energyprice, Partition=0, Offset=79825, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:17:10 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:10 Received message: Topic=public.energyprice, Partition=0, Offset=79826, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:17:10 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:10 Received message: Topic=public.energyprice, Partition=0, Offset=79827, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:17:10 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:10 Received message: Topic=public.energyprice, Partition=0, Offset=79828, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:17:10 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:10 Received message: Topic=public.energyprice, Partition=0, Offset=79829, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:17:10 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:20 Received message: Topic=public.energyprice, Partition=0, Offset=79830, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:17:20 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:20 Received message: Topic=public.energyprice, Partition=0, Offset=79831, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:17:20 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:20 Received message: Topic=public.energyprice, Partition=0, Offset=79832, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:17:20 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:20 Received message: Topic=public.energyprice, Partition=0, Offset=79833, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:17:20 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:20 Received message: Topic=public.energyprice, Partition=0, Offset=79834, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:17:20 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:30 Received message: Topic=public.energyprice, Partition=0, Offset=79835, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:17:30 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:30 Received message: Topic=public.energyprice, Partition=0, Offset=79836, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:17:30 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:30 Received message: Topic=public.energyprice, Partition=0, Offset=79837, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:17:30 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:30 Received message: Topic=public.energyprice, Partition=0, Offset=79838, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:17:30 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:30 Received message: Topic=public.energyprice, Partition=0, Offset=79839, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:17:30 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:40 Received message: Topic=public.energyprice, Partition=0, Offset=79840, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:17:40 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:40 Received message: Topic=public.energyprice, Partition=0, Offset=79841, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:17:40 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:40 Received message: Topic=public.energyprice, Partition=0, Offset=79842, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:17:40 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:40 Received message: Topic=public.energyprice, Partition=0, Offset=79843, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:17:40 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:40 Received message: Topic=public.energyprice, Partition=0, Offset=79844, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:17:40 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:50 Received message: Topic=public.energyprice, Partition=0, Offset=79845, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:17:50 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:50 Received message: Topic=public.energyprice, Partition=0, Offset=79846, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:17:50 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:17:50 Received message: Topic=public.energyprice, Partition=0, Offset=79847, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:17:50 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:50 Received message: Topic=public.energyprice, Partition=0, Offset=79848, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:17:50 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:17:50 Received message: Topic=public.energyprice, Partition=0, Offset=79849, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:17:50 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:00 Received message: Topic=public.energyprice, Partition=0, Offset=79850, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:18:00 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:00 Received message: Topic=public.energyprice, Partition=0, Offset=79851, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:18:00 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:00 Received message: Topic=public.energyprice, Partition=0, Offset=79852, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:18:00 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:00 Received message: Topic=public.energyprice, Partition=0, Offset=79853, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:18:00 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:00 Received message: Topic=public.energyprice, Partition=0, Offset=79854, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:18:00 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:10 Received message: Topic=public.energyprice, Partition=0, Offset=79855, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:18:10 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:10 Received message: Topic=public.energyprice, Partition=0, Offset=79856, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:18:10 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:10 Received message: Topic=public.energyprice, Partition=0, Offset=79857, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:18:10 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:10 Received message: Topic=public.energyprice, Partition=0, Offset=79858, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:18:10 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:10 Received message: Topic=public.energyprice, Partition=0, Offset=79859, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:18:10 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:20 Received message: Topic=public.energyprice, Partition=0, Offset=79860, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:18:20 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:20 Received message: Topic=public.energyprice, Partition=0, Offset=79861, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:18:20 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:20 Received message: Topic=public.energyprice, Partition=0, Offset=79862, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:18:20 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:20 Received message: Topic=public.energyprice, Partition=0, Offset=79863, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:18:20 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:20 Received message: Topic=public.energyprice, Partition=0, Offset=79864, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:18:20 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:30 Received message: Topic=public.energyprice, Partition=0, Offset=79865, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:18:30 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:30 Received message: Topic=public.energyprice, Partition=0, Offset=79866, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:18:30 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:30 Received message: Topic=public.energyprice, Partition=0, Offset=79867, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:18:30 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:30 Received message: Topic=public.energyprice, Partition=0, Offset=79868, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:18:30 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:30 Received message: Topic=public.energyprice, Partition=0, Offset=79869, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:18:30 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:40 Received message: Topic=public.energyprice, Partition=0, Offset=79870, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:18:40 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:40 Received message: Topic=public.energyprice, Partition=0, Offset=79871, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:18:40 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:40 Received message: Topic=public.energyprice, Partition=0, Offset=79872, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:18:40 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:40 Received message: Topic=public.energyprice, Partition=0, Offset=79873, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:18:40 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:40 Received message: Topic=public.energyprice, Partition=0, Offset=79874, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:18:40 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:50 Received message: Topic=public.energyprice, Partition=0, Offset=79875, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:18:50 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:50 Received message: Topic=public.energyprice, Partition=0, Offset=79876, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:18:50 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:18:50 Received message: Topic=public.energyprice, Partition=0, Offset=79877, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:18:50 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:50 Received message: Topic=public.energyprice, Partition=0, Offset=79878, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:18:50 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:18:50 Received message: Topic=public.energyprice, Partition=0, Offset=79879, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:18:50 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:00 Received message: Topic=public.energyprice, Partition=0, Offset=79880, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:19:00 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:00 Received message: Topic=public.energyprice, Partition=0, Offset=79881, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:19:00 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:00 Received message: Topic=public.energyprice, Partition=0, Offset=79882, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:19:00 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:00 Received message: Topic=public.energyprice, Partition=0, Offset=79883, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:19:00 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:00 Received message: Topic=public.energyprice, Partition=0, Offset=79884, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:19:00 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:10 Received message: Topic=public.energyprice, Partition=0, Offset=79885, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:19:10 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:10 Received message: Topic=public.energyprice, Partition=0, Offset=79886, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:19:10 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:10 Received message: Topic=public.energyprice, Partition=0, Offset=79887, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:19:10 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:10 Received message: Topic=public.energyprice, Partition=0, Offset=79888, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:19:10 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:10 Received message: Topic=public.energyprice, Partition=0, Offset=79889, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:19:10 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:20 Received message: Topic=public.energyprice, Partition=0, Offset=79890, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:19:20 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:20 Received message: Topic=public.energyprice, Partition=0, Offset=79891, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:19:20 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:20 Received message: Topic=public.energyprice, Partition=0, Offset=79892, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:19:20 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:20 Received message: Topic=public.energyprice, Partition=0, Offset=79893, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:19:20 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:20 Received message: Topic=public.energyprice, Partition=0, Offset=79894, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:19:20 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:30 Received message: Topic=public.energyprice, Partition=0, Offset=79895, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:19:30 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:30 Received message: Topic=public.energyprice, Partition=0, Offset=79896, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:19:30 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:30 Received message: Topic=public.energyprice, Partition=0, Offset=79897, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:19:30 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:30 Received message: Topic=public.energyprice, Partition=0, Offset=79898, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:19:30 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:30 Received message: Topic=public.energyprice, Partition=0, Offset=79899, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:19:30 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:40 Received message: Topic=public.energyprice, Partition=0, Offset=79900, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:19:40 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:40 Received message: Topic=public.energyprice, Partition=0, Offset=79901, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:19:40 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:40 Received message: Topic=public.energyprice, Partition=0, Offset=79902, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:19:40 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:40 Received message: Topic=public.energyprice, Partition=0, Offset=79903, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:19:40 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:40 Received message: Topic=public.energyprice, Partition=0, Offset=79904, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:19:40 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:50 Received message: Topic=public.energyprice, Partition=0, Offset=79905, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:19:50 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:50 Received message: Topic=public.energyprice, Partition=0, Offset=79906, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:19:50 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:19:50 Received message: Topic=public.energyprice, Partition=0, Offset=79907, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:19:50 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:50 Received message: Topic=public.energyprice, Partition=0, Offset=79908, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:19:50 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:19:50 Received message: Topic=public.energyprice, Partition=0, Offset=79909, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:19:50 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:00 Received message: Topic=public.energyprice, Partition=0, Offset=79910, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:20:00 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:20:00 Received message: Topic=public.energyprice, Partition=0, Offset=79911, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:20:00 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:20:00 Received message: Topic=public.energyprice, Partition=0, Offset=79912, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:20:00 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:00 Received message: Topic=public.energyprice, Partition=0, Offset=79913, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:20:00 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:00 Received message: Topic=public.energyprice, Partition=0, Offset=79914, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:20:00 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:10 Received message: Topic=public.energyprice, Partition=0, Offset=79915, Key=, Value={"location_id":"NSW1","currency":"AUD","price":89}
+2023/06/28 23:20:10 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:20:10 Received message: Topic=public.energyprice, Partition=0, Offset=79916, Key=, Value={"location_id":"QLD1","currency":"AUD","price":93.26099}
+2023/06/28 23:20:10 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:20:10 Received message: Topic=public.energyprice, Partition=0, Offset=79917, Key=, Value={"location_id":"SA1","currency":"AUD","price":232.41}
+2023/06/28 23:20:10 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:10 Received message: Topic=public.energyprice, Partition=0, Offset=79918, Key=, Value={"location_id":"TAS1","currency":"AUD","price":68.7962}
+2023/06/28 23:20:10 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:10 Received message: Topic=public.energyprice, Partition=0, Offset=79919, Key=, Value={"location_id":"VIC1","currency":"AUD","price":73.82877}
+2023/06/28 23:20:10 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:20 Received message: Topic=public.energyprice, Partition=0, Offset=79920, Key=, Value={"location_id":"NSW1","currency":"AUD","price":79.51192}
+2023/06/28 23:20:20 Location ID: NSW1, Currency Code: AUD, Price: 89.00, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:20:20 Received message: Topic=public.energyprice, Partition=0, Offset=79921, Key=, Value={"location_id":"QLD1","currency":"AUD","price":82.6741}
+2023/06/28 23:20:20 Location ID: QLD1, Currency Code: AUD, Price: 93.26, Last Updated: 2023-06-28 13:15:50
+2023/06/28 23:20:20 Received message: Topic=public.energyprice, Partition=0, Offset=79922, Key=, Value={"location_id":"SA1","currency":"AUD","price":175.99}
+2023/06/28 23:20:20 Location ID: SA1, Currency Code: AUD, Price: 232.41, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:20 Received message: Topic=public.energyprice, Partition=0, Offset=79923, Key=, Value={"location_id":"TAS1","currency":"AUD","price":60.02477}
+2023/06/28 23:20:20 Location ID: TAS1, Currency Code: AUD, Price: 68.80, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:20 Received message: Topic=public.energyprice, Partition=0, Offset=79924, Key=, Value={"location_id":"VIC1","currency":"AUD","price":64.76}
+2023/06/28 23:20:20 Location ID: VIC1, Currency Code: AUD, Price: 73.83, Last Updated: 2023-06-28 13:15:51
+2023/06/28 23:20:30 Received message: Topic=public.energyprice, Partition=0, Offset=79925, Key=, Value={"location_id":"NSW1","currency":"AUD","price":79.51192}
+2023/06/28 23:20:30 Location ID: NSW1, Currency Code: AUD, Price: 79.51, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:30 Received message: Topic=public.energyprice, Partition=0, Offset=79926, Key=, Value={"location_id":"QLD1","currency":"AUD","price":82.6741}
+2023/06/28 23:20:30 Location ID: QLD1, Currency Code: AUD, Price: 82.67, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:30 Received message: Topic=public.energyprice, Partition=0, Offset=79927, Key=, Value={"location_id":"SA1","currency":"AUD","price":175.99}
+2023/06/28 23:20:30 Location ID: SA1, Currency Code: AUD, Price: 175.99, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:30 Received message: Topic=public.energyprice, Partition=0, Offset=79928, Key=, Value={"location_id":"TAS1","currency":"AUD","price":60.02477}
+2023/06/28 23:20:30 Location ID: TAS1, Currency Code: AUD, Price: 60.02, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:30 Received message: Topic=public.energyprice, Partition=0, Offset=79929, Key=, Value={"location_id":"VIC1","currency":"AUD","price":64.76}
+2023/06/28 23:20:30 Location ID: VIC1, Currency Code: AUD, Price: 64.76, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:40 Received message: Topic=public.energyprice, Partition=0, Offset=79930, Key=, Value={"location_id":"NSW1","currency":"AUD","price":79.51192}
+2023/06/28 23:20:40 Location ID: NSW1, Currency Code: AUD, Price: 79.51, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:40 Received message: Topic=public.energyprice, Partition=0, Offset=79931, Key=, Value={"location_id":"QLD1","currency":"AUD","price":82.6741}
+2023/06/28 23:20:40 Location ID: QLD1, Currency Code: AUD, Price: 82.67, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:40 Received message: Topic=public.energyprice, Partition=0, Offset=79932, Key=, Value={"location_id":"SA1","currency":"AUD","price":175.99}
+2023/06/28 23:20:40 Location ID: SA1, Currency Code: AUD, Price: 175.99, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:40 Received message: Topic=public.energyprice, Partition=0, Offset=79933, Key=, Value={"location_id":"TAS1","currency":"AUD","price":60.02477}
+2023/06/28 23:20:40 Location ID: TAS1, Currency Code: AUD, Price: 60.02, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:40 Received message: Topic=public.energyprice, Partition=0, Offset=79934, Key=, Value={"location_id":"VIC1","currency":"AUD","price":64.76}
+2023/06/28 23:20:40 Location ID: VIC1, Currency Code: AUD, Price: 64.76, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:50 Received message: Topic=public.energyprice, Partition=0, Offset=79935, Key=, Value={"location_id":"NSW1","currency":"AUD","price":79.51192}
+2023/06/28 23:20:50 Location ID: NSW1, Currency Code: AUD, Price: 79.51, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:50 Received message: Topic=public.energyprice, Partition=0, Offset=79936, Key=, Value={"location_id":"QLD1","currency":"AUD","price":82.6741}
+2023/06/28 23:20:50 Location ID: QLD1, Currency Code: AUD, Price: 82.67, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:50 Received message: Topic=public.energyprice, Partition=0, Offset=79937, Key=, Value={"location_id":"SA1","currency":"AUD","price":175.99}
+2023/06/28 23:20:50 Location ID: SA1, Currency Code: AUD, Price: 175.99, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:50 Received message: Topic=public.energyprice, Partition=0, Offset=79938, Key=, Value={"location_id":"TAS1","currency":"AUD","price":60.02477}
+2023/06/28 23:20:50 Location ID: TAS1, Currency Code: AUD, Price: 60.02, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:20:50 Received message: Topic=public.energyprice, Partition=0, Offset=79939, Key=, Value={"location_id":"VIC1","currency":"AUD","price":64.76}
+2023/06/28 23:20:50 Location ID: VIC1, Currency Code: AUD, Price: 64.76, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:00 Received message: Topic=public.energyprice, Partition=0, Offset=79940, Key=, Value={"location_id":"NSW1","currency":"AUD","price":79.51192}
+2023/06/28 23:21:00 Location ID: NSW1, Currency Code: AUD, Price: 79.51, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:00 Received message: Topic=public.energyprice, Partition=0, Offset=79941, Key=, Value={"location_id":"QLD1","currency":"AUD","price":82.6741}
+2023/06/28 23:21:00 Location ID: QLD1, Currency Code: AUD, Price: 82.67, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:00 Received message: Topic=public.energyprice, Partition=0, Offset=79942, Key=, Value={"location_id":"SA1","currency":"AUD","price":175.99}
+2023/06/28 23:21:00 Location ID: SA1, Currency Code: AUD, Price: 175.99, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:00 Received message: Topic=public.energyprice, Partition=0, Offset=79943, Key=, Value={"location_id":"TAS1","currency":"AUD","price":60.02477}
+2023/06/28 23:21:00 Location ID: TAS1, Currency Code: AUD, Price: 60.02, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:00 Received message: Topic=public.energyprice, Partition=0, Offset=79944, Key=, Value={"location_id":"VIC1","currency":"AUD","price":64.76}
+2023/06/28 23:21:00 Location ID: VIC1, Currency Code: AUD, Price: 64.76, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:10 Received message: Topic=public.energyprice, Partition=0, Offset=79945, Key=, Value={"location_id":"NSW1","currency":"AUD","price":79.51192}
+2023/06/28 23:21:10 Location ID: NSW1, Currency Code: AUD, Price: 79.51, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:10 Received message: Topic=public.energyprice, Partition=0, Offset=79946, Key=, Value={"location_id":"QLD1","currency":"AUD","price":82.6741}
+2023/06/28 23:21:10 Location ID: QLD1, Currency Code: AUD, Price: 82.67, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:10 Received message: Topic=public.energyprice, Partition=0, Offset=79947, Key=, Value={"location_id":"SA1","currency":"AUD","price":175.99}
+2023/06/28 23:21:10 Location ID: SA1, Currency Code: AUD, Price: 175.99, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:10 Received message: Topic=public.energyprice, Partition=0, Offset=79948, Key=, Value={"location_id":"TAS1","currency":"AUD","price":60.02477}
+2023/06/28 23:21:10 Location ID: TAS1, Currency Code: AUD, Price: 60.02, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:10 Received message: Topic=public.energyprice, Partition=0, Offset=79949, Key=, Value={"location_id":"VIC1","currency":"AUD","price":64.76}
+2023/06/28 23:21:10 Location ID: VIC1, Currency Code: AUD, Price: 64.76, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:20 Received message: Topic=public.energyprice, Partition=0, Offset=79950, Key=, Value={"location_id":"NSW1","currency":"AUD","price":79.51192}
+2023/06/28 23:21:20 Location ID: NSW1, Currency Code: AUD, Price: 79.51, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:20 Received message: Topic=public.energyprice, Partition=0, Offset=79951, Key=, Value={"location_id":"QLD1","currency":"AUD","price":82.6741}
+2023/06/28 23:21:20 Location ID: QLD1, Currency Code: AUD, Price: 82.67, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:20 Received message: Topic=public.energyprice, Partition=0, Offset=79952, Key=, Value={"location_id":"SA1","currency":"AUD","price":175.99}
+2023/06/28 23:21:20 Location ID: SA1, Currency Code: AUD, Price: 175.99, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:20 Received message: Topic=public.energyprice, Partition=0, Offset=79953, Key=, Value={"location_id":"TAS1","currency":"AUD","price":60.02477}
+2023/06/28 23:21:20 Location ID: TAS1, Currency Code: AUD, Price: 60.02, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:20 Received message: Topic=public.energyprice, Partition=0, Offset=79954, Key=, Value={"location_id":"VIC1","currency":"AUD","price":64.76}
+2023/06/28 23:21:20 Location ID: VIC1, Currency Code: AUD, Price: 64.76, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:30 Received message: Topic=public.energyprice, Partition=0, Offset=79955, Key=, Value={"location_id":"NSW1","currency":"AUD","price":79.51192}
+2023/06/28 23:21:30 Location ID: NSW1, Currency Code: AUD, Price: 79.51, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:30 Received message: Topic=public.energyprice, Partition=0, Offset=79956, Key=, Value={"location_id":"QLD1","currency":"AUD","price":82.6741}
+2023/06/28 23:21:30 Location ID: QLD1, Currency Code: AUD, Price: 82.67, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:30 Received message: Topic=public.energyprice, Partition=0, Offset=79957, Key=, Value={"location_id":"SA1","currency":"AUD","price":175.99}
+2023/06/28 23:21:30 Location ID: SA1, Currency Code: AUD, Price: 175.99, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:30 Received message: Topic=public.energyprice, Partition=0, Offset=79958, Key=, Value={"location_id":"TAS1","currency":"AUD","price":60.02477}
+2023/06/28 23:21:30 Location ID: TAS1, Currency Code: AUD, Price: 60.02, Last Updated: 2023-06-28 13:20:21
+2023/06/28 23:21:30 Received message: Topic=public.energyprice, Partition=0, Offset=79959, Key=, Value={"location_id":"VIC1","currency":"AUD","price":64.76}
+2023/06/28 23:21:30 Location ID: VIC1, Currency Code: AUD, Price: 64.76, Last Updated: 2023-06-28 13:20:21

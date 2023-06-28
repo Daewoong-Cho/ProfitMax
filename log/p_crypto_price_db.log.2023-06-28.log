@@ -1,0 +1,140 @@
+2023/06/28 23:09:55 Received message: Topic=public.cryptoprice, Partition=0, Offset=24228, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:09:55 Data inserted successfully!
+2023/06/28 23:10:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24229, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:04 Data inserted successfully!
+2023/06/28 23:10:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24230, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:14 Data inserted successfully!
+2023/06/28 23:10:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24231, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:24 Data inserted successfully!
+2023/06/28 23:10:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24232, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:34 Data inserted successfully!
+2023/06/28 23:10:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24233, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:44 Data inserted successfully!
+2023/06/28 23:10:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24234, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:10:54 Data inserted successfully!
+2023/06/28 23:11:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24235, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:04 Data inserted successfully!
+2023/06/28 23:11:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24236, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:14 Data inserted successfully!
+2023/06/28 23:11:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24237, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:24 Data inserted successfully!
+2023/06/28 23:11:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24238, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:34 Data inserted successfully!
+2023/06/28 23:11:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24239, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:44 Data inserted successfully!
+2023/06/28 23:11:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24240, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:11:54 Data inserted successfully!
+2023/06/28 23:12:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24241, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:12:04 Data inserted successfully!
+2023/06/28 23:12:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24242, Key=, Value={"symbol":"BTC","currency":"AUD","price":45449.51}
+2023/06/28 23:12:14 Data inserted successfully!
+2023/06/28 23:12:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24243, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:12:24 Data inserted successfully!
+2023/06/28 23:12:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24244, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:12:34 Data inserted successfully!
+2023/06/28 23:12:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24245, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:12:44 Data inserted successfully!
+2023/06/28 23:12:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24246, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:12:54 Data inserted successfully!
+2023/06/28 23:13:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24247, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:13:04 Data inserted successfully!
+2023/06/28 23:13:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24248, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:13:14 Data inserted successfully!
+2023/06/28 23:13:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24249, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:13:24 Data inserted successfully!
+2023/06/28 23:13:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24250, Key=, Value={"symbol":"BTC","currency":"AUD","price":45475.39}
+2023/06/28 23:13:34 Data inserted successfully!
+2023/06/28 23:13:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24251, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:13:44 Data inserted successfully!
+2023/06/28 23:13:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24252, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:13:54 Data inserted successfully!
+2023/06/28 23:14:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24253, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:04 Data inserted successfully!
+2023/06/28 23:14:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24254, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:14 Data inserted successfully!
+2023/06/28 23:14:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24255, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:24 Data inserted successfully!
+2023/06/28 23:14:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24256, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:34 Data inserted successfully!
+2023/06/28 23:14:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24257, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:44 Data inserted successfully!
+2023/06/28 23:14:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24258, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:14:54 Data inserted successfully!
+2023/06/28 23:15:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24259, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:04 Data inserted successfully!
+2023/06/28 23:15:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24260, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:14 Data inserted successfully!
+2023/06/28 23:15:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24261, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:24 Data inserted successfully!
+2023/06/28 23:15:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24262, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:34 Data inserted successfully!
+2023/06/28 23:15:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24263, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:44 Data inserted successfully!
+2023/06/28 23:15:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24264, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:15:54 Data inserted successfully!
+2023/06/28 23:16:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24265, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:04 Data inserted successfully!
+2023/06/28 23:16:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24266, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:14 Data inserted successfully!
+2023/06/28 23:16:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24267, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:24 Data inserted successfully!
+2023/06/28 23:16:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24268, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:34 Data inserted successfully!
+2023/06/28 23:16:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24269, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:44 Data inserted successfully!
+2023/06/28 23:16:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24270, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:16:54 Data inserted successfully!
+2023/06/28 23:17:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24271, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:04 Data inserted successfully!
+2023/06/28 23:17:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24272, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:14 Data inserted successfully!
+2023/06/28 23:17:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24273, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:24 Data inserted successfully!
+2023/06/28 23:17:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24274, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:34 Data inserted successfully!
+2023/06/28 23:17:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24275, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:44 Data inserted successfully!
+2023/06/28 23:17:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24276, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:17:54 Data inserted successfully!
+2023/06/28 23:18:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24277, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:04 Data inserted successfully!
+2023/06/28 23:18:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24278, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:14 Data inserted successfully!
+2023/06/28 23:18:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24279, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:24 Data inserted successfully!
+2023/06/28 23:18:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24280, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:34 Data inserted successfully!
+2023/06/28 23:18:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24281, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:44 Data inserted successfully!
+2023/06/28 23:18:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24282, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:18:54 Data inserted successfully!
+2023/06/28 23:19:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24283, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:04 Data inserted successfully!
+2023/06/28 23:19:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24284, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:14 Data inserted successfully!
+2023/06/28 23:19:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24285, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:24 Data inserted successfully!
+2023/06/28 23:19:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24286, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:34 Data inserted successfully!
+2023/06/28 23:19:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24287, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:44 Data inserted successfully!
+2023/06/28 23:19:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24288, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:19:54 Data inserted successfully!
+2023/06/28 23:20:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24289, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:04 Data inserted successfully!
+2023/06/28 23:20:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24290, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:14 Data inserted successfully!
+2023/06/28 23:20:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24291, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:24 Data inserted successfully!
+2023/06/28 23:20:34 Received message: Topic=public.cryptoprice, Partition=0, Offset=24292, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:34 Data inserted successfully!
+2023/06/28 23:20:44 Received message: Topic=public.cryptoprice, Partition=0, Offset=24293, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:44 Data inserted successfully!
+2023/06/28 23:20:54 Received message: Topic=public.cryptoprice, Partition=0, Offset=24294, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:20:54 Data inserted successfully!
+2023/06/28 23:21:04 Received message: Topic=public.cryptoprice, Partition=0, Offset=24295, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:21:04 Data inserted successfully!
+2023/06/28 23:21:14 Received message: Topic=public.cryptoprice, Partition=0, Offset=24296, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:21:14 Data inserted successfully!
+2023/06/28 23:21:24 Received message: Topic=public.cryptoprice, Partition=0, Offset=24297, Key=, Value={"symbol":"BTC","currency":"AUD","price":45568.63}
+2023/06/28 23:21:24 Data inserted successfully!

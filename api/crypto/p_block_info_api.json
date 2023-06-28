@@ -1,0 +1,9 @@
+{
+    "log_path": "/home/david/ProfitMax/log",
+    "log_file": "p_block_info_api.log",
+    "symbol": "BTC",
+    "url": "wss://ws.blockchain.info/inv",
+    "kafka_broker": "10.0.2.15:9092",
+    "topic": "public.blockinfo",
+    "time_interval": 10
+}
