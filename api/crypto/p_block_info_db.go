@@ -18,6 +18,13 @@ CREATE TABLE tbl_blockchain_info (
     PRIMARY KEY (blockchain)
 );
 
+CREATE TABLE tbl_blockdifficulty_history (
+    blockchain VARCHAR(10) NOT NULL,
+    difficulty DECIMAL(18, 0),
+    timestamp DATETIME NOT NULL,
+    PRIMARY KEY (blockchain, timestamp)
+);
+
 */
 
 import (
@@ -267,13 +274,13 @@ func insertBlockInfoTable(blockchain string, msg *sarama.ConsumerMessage) {
 
 	if input.Op == "block" {
 		// Insert the data into the table
-		insertData := "INSERT INTO tbl_block_info (blockchain, block_height, reward, difficulty, timestamp) VALUES (?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE reward = ?, difficulty = ?, timestamp = ?"
-		_, err = db.Exec(insertData, blockchain, input.X.Height, input.X.Reward, input.X.Difficulty, time.Now(), input.X.Reward, input.X.Difficulty, time.Now())
+		insertData := "INSERT INTO tbl_block_info (blockchain, block_height, reward, difficulty, timestamp) SELECT ?, ?, ?, difficulty, ? FROM tbl_blockchain_info WHERE blockchain = ? ON DUPLICATE KEY UPDATE reward = ?, timestamp = ?"
+		_, err = db.Exec(insertData, blockchain, input.X.Height, input.X.Reward, time.Now(), blockchain, input.X.Reward, time.Now())
 		if err != nil {
 			logs.Fatal("Error inserting data into table:", err)
 		}
 
-		logs.Printf("Data inserted successfully!")
+		logs.Printf("tbl_block_info: Data inserted successfully!")
 	}
 
 }
@@ -299,7 +306,14 @@ func insertBlockchainInfoTable(msg *sarama.ConsumerMessage, class string) {
 
 		logs.Printf("Data inserted successfully!")
 	} else if class == "D" {
-		// Insert the data into the table
+		// Insert the data into the table (difficulty history)
+		insertDifficultyData := "INSERT INTO tbl_blockdifficulty_history (blockchain, difficulty, timestamp) SELECT ?, ?, ? FROM tbl_blockchain_info WHERE tbl_blockchain_info.difficulty <> ?"
+		_, err = db.Exec(insertDifficultyData, input.Symbol, input.Value, time.Now(), input.Value)
+		if err != nil {
+			logs.Fatal("Error inserting data into table:", err)
+		}
+
+		// Insert the data into the table (current blockchain info)
 		insertData := "INSERT INTO tbl_blockchain_info (blockchain, difficulty, last_updated) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE difficulty = ?, last_updated = ?"
 		_, err = db.Exec(insertData, input.Symbol, input.Value, time.Now(), input.Value, time.Now())
 		if err != nil {
@@ -307,5 +321,6 @@ func insertBlockchainInfoTable(msg *sarama.ConsumerMessage, class string) {
 		}
 
 		logs.Printf("Data inserted successfully!")
+
 	}
 }

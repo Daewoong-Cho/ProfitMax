@@ -1,1 +1,1 @@
-# ProfitMax
+# Profit

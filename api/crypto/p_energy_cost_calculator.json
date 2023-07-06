@@ -6,6 +6,6 @@
     "topics": ["public.energyprice", "public.block.difficulty"],
     "publish_topic": "private.mining.energycost",
     "time_interval": 10,
-    "location_id": "QLD1",
+    "location_id": "VIC1",
     "currency": "AUD"
 }

@@ -7,5 +7,5 @@
     "topics": ["private.mining.energycost"],
     "publish_topic": "private.mining.cost",
     "time_interval": 10,
-    "location_id": "QLD1"
+    "location_id": "VIC1"
 }

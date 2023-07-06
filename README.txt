@@ -83,3 +83,10 @@ cd test_app
 npm start
 
 4. App.js 파일에 들어가 수정하고 save를 하면 자동으로 컴파일이 시작되어, 페이지가 자동으로 reload 되는 것도 확인할 수 있다.
+
+SET GLOBAL time_zone = '+10:00';
+
+python3 sh_predict_energy_price.py --type Energy --symbol BTC --location QLD1 --model Linear --interval 10
+python3 sh_predict_energy_price.py --type Energy --symbol BTC --location QLD1 --model RandomForest --interval 10
+python3 sh_predict_energy_price.py --type Crypto --symbol BTC --location QLD1 --model Linear --interval 10
+python3 sh_predict_energy_price.py --type Crypto --symbol BTC --location QLD1 --model RandomForest --interval 10
