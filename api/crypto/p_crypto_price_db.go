@@ -21,7 +21,6 @@ import (
 	common "profitmax/util/common"
 	logger "profitmax/util/logger"
 	"sync"
-	"time"
 
 	"github.com/Shopify/sarama"
 	_ "github.com/go-sql-driver/mysql"
@@ -179,14 +178,16 @@ func insertTable(db *sql.DB, msg *sarama.ConsumerMessage) {
 	var input InputData
 	err := json.Unmarshal(jsonData, &input)
 	if err != nil {
-		logs.Fatal("Error parsing JSON:", err)
+		logs.Println("Error parsing JSON:", err)
+		return
 	}
 
 	// Insert the data into the table
-	insertData := "INSERT INTO tbl_crypto_price_tick (symbol, currency_code, price, timestamp) VALUES (?, ?, ?, ?)"
-	_, err = db.Exec(insertData, input.Symbol, input.Currency, input.Price, time.Now())
+	insertData := "INSERT INTO tbl_crypto_price_tick (symbol, currency_code, price, timestamp) VALUES (?, ?, ?, now())"
+	_, err = db.Exec(insertData, input.Symbol, input.Currency, input.Price)
 	if err != nil {
-		logs.Fatal("Error inserting data into table:", err)
+		logs.Println("Error inserting data into table:", err)
+		return
 	}
 
 	logs.Println("Data inserted successfully!")

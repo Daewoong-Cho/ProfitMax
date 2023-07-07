@@ -39,7 +39,6 @@ import (
 	common "profitmax/util/common"
 	logger "profitmax/util/logger"
 	"sync"
-	"time"
 
 	"github.com/Shopify/sarama"
 	_ "github.com/go-sql-driver/mysql"
@@ -269,15 +268,17 @@ func insertBlockInfoTable(blockchain string, msg *sarama.ConsumerMessage) {
 	var input BlockData
 	err := json.Unmarshal(jsonData, &input)
 	if err != nil {
-		logs.Fatal("Error parsing JSON:", err)
+		logs.Println("Error parsing JSON:", err)
+		return
 	}
 
 	if input.Op == "block" {
 		// Insert the data into the table
-		insertData := "INSERT INTO tbl_block_info (blockchain, block_height, reward, difficulty, timestamp) SELECT ?, ?, ?, difficulty, ? FROM tbl_blockchain_info WHERE blockchain = ? ON DUPLICATE KEY UPDATE reward = ?, timestamp = ?"
-		_, err = db.Exec(insertData, blockchain, input.X.Height, input.X.Reward, time.Now(), blockchain, input.X.Reward, time.Now())
+		insertData := "INSERT INTO tbl_block_info (blockchain, block_height, reward, difficulty, timestamp) SELECT ?, ?, ?, difficulty, now() FROM tbl_blockchain_info WHERE blockchain = ? ON DUPLICATE KEY UPDATE reward = ?, timestamp = now()"
+		_, err = db.Exec(insertData, blockchain, input.X.Height, input.X.Reward, blockchain, input.X.Reward)
 		if err != nil {
-			logs.Fatal("Error inserting data into table:", err)
+			logs.Println("Error inserting data into table:", err)
+			return
 		}
 
 		logs.Printf("tbl_block_info: Data inserted successfully!")
@@ -293,31 +294,35 @@ func insertBlockchainInfoTable(msg *sarama.ConsumerMessage, class string) {
 	var input BlockchainData
 	err := json.Unmarshal(jsonData, &input)
 	if err != nil {
-		logs.Fatal("Error parsing JSON:", err)
+		logs.Println("Error parsing JSON:", err)
+		return
 	}
 
 	if class == "S" {
 		// Insert the data into the table
-		insertData := "INSERT INTO tbl_blockchain_info (blockchain, subsidy, last_updated) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE subsidy = ?, last_updated = ?"
-		_, err = db.Exec(insertData, input.Symbol, input.Value, time.Now(), input.Value, time.Now())
+		insertData := "INSERT INTO tbl_blockchain_info (blockchain, subsidy, last_updated) VALUES (?, ?, now()) ON DUPLICATE KEY UPDATE subsidy = ?, last_updated = now()"
+		_, err = db.Exec(insertData, input.Symbol, input.Value, input.Value)
 		if err != nil {
-			logs.Fatal("Error inserting data into table:", err)
+			logs.Println("Error inserting data into table:", err)
+			return
 		}
 
 		logs.Printf("Data inserted successfully!")
 	} else if class == "D" {
 		// Insert the data into the table (difficulty history)
-		insertDifficultyData := "INSERT INTO tbl_blockdifficulty_history (blockchain, difficulty, timestamp) SELECT ?, ?, ? FROM tbl_blockchain_info WHERE tbl_blockchain_info.difficulty <> ?"
-		_, err = db.Exec(insertDifficultyData, input.Symbol, input.Value, time.Now(), input.Value)
+		insertDifficultyData := "INSERT INTO tbl_blockdifficulty_history (blockchain, difficulty, timestamp) SELECT ?, ?, now() FROM tbl_blockchain_info WHERE tbl_blockchain_info.difficulty <> ?"
+		_, err = db.Exec(insertDifficultyData, input.Symbol, input.Value, input.Value)
 		if err != nil {
-			logs.Fatal("Error inserting data into table:", err)
+			logs.Println("Error inserting data into table:", err)
+			return
 		}
 
 		// Insert the data into the table (current blockchain info)
-		insertData := "INSERT INTO tbl_blockchain_info (blockchain, difficulty, last_updated) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE difficulty = ?, last_updated = ?"
-		_, err = db.Exec(insertData, input.Symbol, input.Value, time.Now(), input.Value, time.Now())
+		insertData := "INSERT INTO tbl_blockchain_info (blockchain, difficulty, last_updated) VALUES (?, ?, now()) ON DUPLICATE KEY UPDATE difficulty = ?, last_updated = now()"
+		_, err = db.Exec(insertData, input.Symbol, input.Value, input.Value)
 		if err != nil {
-			logs.Fatal("Error inserting data into table:", err)
+			logs.Println("Error inserting data into table:", err)
+			return
 		}
 
 		logs.Printf("Data inserted successfully!")

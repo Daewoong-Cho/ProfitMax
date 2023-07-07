@@ -59,11 +59,22 @@ go build p_mining_decision_maker.go
 go build p_crypto_price_db.go
 go build p_energy_price_api.go
 go build p_block_info_db.go
-go build p_energy_price_db
+go build p_energy_price_db.go
 go build p_mining_incentive_calculator.go
 go build p_energy_cost_calculator.go
 go build p_mining_cost_calculator.go
 mysql -u profitmax -p
+
+./p_block_info_api p_block_info_api.json
+./p_crypto_price_api p_crypto_price_api.json
+./p_mining_decision_maker p_mining_decision_maker.json
+./p_crypto_price_db p_crypto_price_db.json
+./p_energy_price_api p_energy_price_api.json
+./p_block_info_db p_block_info_db.json
+./p_energy_price_db p_energy_price_db.json
+./p_mining_incentive_calculator p_mining_incentive_calculator.json
+./p_energy_cost_calculator p_energy_cost_calculator.json
+./p_mining_cost_calculator p_mining_cost_calculator.json
 
 
 #React 실행하기
@@ -86,7 +97,26 @@ npm start
 
 SET GLOBAL time_zone = '+10:00';
 
-python3 sh_predict_energy_price.py --type Energy --symbol BTC --location QLD1 --model Linear --interval 10
-python3 sh_predict_energy_price.py --type Energy --symbol BTC --location QLD1 --model RandomForest --interval 10
-python3 sh_predict_energy_price.py --type Crypto --symbol BTC --location QLD1 --model Linear --interval 10
-python3 sh_predict_energy_price.py --type Crypto --symbol BTC --location QLD1 --model RandomForest --interval 10
+#py sh_predict_energy_price.py --type Energy --symbol BTC --location QLD1 --model Linear --interval 10
+#py sh_predict_energy_price.py --type Energy --symbol BTC --location QLD1 --model RandomForest --interval 10
+#py sh_predict_energy_price.py --type Energy --symbol BTC --location QLD1 --model LSTM --interval 10
+#py sh_predict_energy_price.py --type Crypto --symbol BTC --location QLD1 --model Linear --interval 10
+#py sh_predict_energy_price.py --type Crypto --symbol BTC --location QLD1 --model RandomForest --interval 10
+#py sh_predict_energy_price.py --type Crypto --symbol BTC --location QLD1 --model LSTM --interval 10
+
+
+windows 서비스 등록
+sc create "zookeeper" binPath= "C:\ProfitMax\zookeeper_start.bat"
+sc create "kafka" binPath= "C:\ProfitMax\kafka_start.bat"
+sc create "p_block_info_api" binPath= "C:\ProfitMax\shell\p_block_info_api.bat"
+sc create "p_block_info_db" binPath= "C:\ProfitMax\shell\p_block_info_db.bat"
+sc create "p_crypto_price_api" binPath= "C:\ProfitMax\shell\p_crypto_price_api.bat"
+sc create "p_crypto_price_db" binPath= "C:\ProfitMax\shell\p_crypto_price_db.bat"
+sc create "p_energy_cost_calculator" binPath= "C:\ProfitMax\shell\p_energy_cost_calculator.bat"
+sc create "p_energy_price_api" binPath= "C:\ProfitMax\shell\p_energy_price_api.bat"
+sc create "p_energy_price_db" binPath= "C:\ProfitMax\shell\p_energy_price_db.bat"
+sc create "p_mining_cost_calculator" binPath= "C:\ProfitMax\shell\p_mining_cost_calculator.bat"
+sc create "p_mining_decision_maker" binPath= "C:\ProfitMax\shell\p_mining_decision_maker.bat"
+sc create "p_mining_incentive_calculator" binPath= "C:\ProfitMax\shell\p_mining_incentive_calculator.bat"
+
+

@@ -185,7 +185,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			var input CurrentCrypto
 			err := json.Unmarshal(jsonData, &input)
 			if err != nil {
-				logs.Fatal("Error parsing JSON:", err)
+				logs.Println("Error parsing JSON:", err)
+				continue
 			}
 
 			// Create the OutputData struct
@@ -197,7 +198,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			// Convert OutputData struct to JSON
 			OutputJSON, err := json.Marshal(currentStatus)
 			if err != nil {
-				logs.Fatalln("Error marshaling current mining cost status data:", err)
+				logs.Println("Error marshaling current mining cost status data:", err)
+				continue
 			}
 
 			// Print the response
@@ -210,7 +212,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			}
 			_, _, err = producer.SendMessage(message)
 			if err != nil {
-				logs.Fatalln("Error sending message to Kafka:", err)
+				logs.Println("Error sending message to Kafka:", err)
+				continue
 			}
 		case "private.mining.cost":
 			//
@@ -221,7 +224,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			var input CurrentCost
 			err := json.Unmarshal(jsonData, &input)
 			if err != nil {
-				logs.Fatal("Error parsing JSON:", err)
+				logs.Println("Error parsing JSON:", err)
+				continue
 			}
 
 			// Create the OutputData struct
@@ -233,7 +237,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			// Convert OutputData struct to JSON
 			OutputJSON, err := json.Marshal(currentStatus)
 			if err != nil {
-				logs.Fatalln("Error marshaling current mining cost status data:", err)
+				logs.Println("Error marshaling current mining cost status data:", err)
+				continue
 			}
 
 			// Print the response
@@ -246,7 +251,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			}
 			_, _, err = producer.SendMessage(message)
 			if err != nil {
-				logs.Fatalln("Error sending message to Kafka:", err)
+				logs.Println("Error sending message to Kafka:", err)
+				continue
 			}
 		case "private.mining.incentive":
 			//
@@ -271,7 +277,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			// Convert OutputData struct to JSON
 			OutputJSON, err := json.Marshal(currentStatus)
 			if err != nil {
-				logs.Fatalln("Error marshaling current mining incentive status data:", err)
+				logs.Println("Error marshaling current mining incentive status data:", err)
+				continue
 			}
 
 			// Print the response
@@ -284,7 +291,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			}
 			_, _, err = producer.SendMessage(message)
 			if err != nil {
-				logs.Fatalln("Error sending message to Kafka:", err)
+				logs.Println("Error sending message to Kafka:", err)
+				continue
 			}
 		default:
 		}

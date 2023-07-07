@@ -96,7 +96,7 @@ func main() {
 		// Make the HTTP GET request
 		resp, err := http.Get(config.URL)
 		if err != nil {
-			logs.Fatalln("Error making request:", err)
+			logs.Println("Error making request:", err)
 			continue
 		}
 
@@ -104,7 +104,7 @@ func main() {
 		body, err := ioutil.ReadAll(resp.Body)
 		resp.Body.Close()
 		if err != nil {
-			logs.Fatalln("Error reading response:", err)
+			logs.Println("Error reading response:", err)
 			continue
 		}
 		logs.Println("[IN]: " + string(body))
@@ -113,7 +113,7 @@ func main() {
 		var CryptoPriceRespData map[string]float64
 		err = json.Unmarshal(body, &CryptoPriceRespData)
 		if err != nil {
-			logs.Fatalln("Error parsing crypto price data:", err)
+			logs.Println("Error parsing crypto price data:", err)
 			continue
 		}
 
@@ -134,7 +134,7 @@ func main() {
 		// Convert CryptoPriceRespData struct to JSON
 		cryptoPriceJSON, err := json.Marshal(cryptoPrice)
 		if err != nil {
-			logs.Fatalln("Error marshaling crypto price data:", err)
+			logs.Println("Error marshaling crypto price data:", err)
 			continue
 		}
 
@@ -148,7 +148,7 @@ func main() {
 		}
 		_, _, err = producer.SendMessage(message)
 		if err != nil {
-			logs.Fatalln("Error sending message to Kafka:", err)
+			logs.Println("Error sending message to Kafka:", err)
 			continue
 		}
 	}

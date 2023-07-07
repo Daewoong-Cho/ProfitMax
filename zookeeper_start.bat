@@ -1,0 +1,1 @@
+C:\ProfitMax\kafka\bin\windows\zookeeper-server-start.bat C:\ProfitMax\kafka\config\zookeeper.properties

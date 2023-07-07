@@ -200,14 +200,16 @@ func getOtherCost(location_id string) float64 {
 	// Prepare the SELECT statement with placeholders for the key values
 	stmt, err := db.Prepare("SELECT IFNULL(SUM(price), 0) FROM tbl_mining_cost_current WHERE cost_code <> 'ENERGY' and location_id=?")
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	defer stmt.Close()
 
 	// Execute the SELECT statement with the key values
 	rows, err := stmt.Query(location_id)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	defer rows.Close()
 
@@ -222,7 +224,8 @@ func getOtherCost(location_id string) float64 {
 
 	err = rows.Scan(&other_cost)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 
 	logs.Printf("Location ID: %s, Other Cost: %.2f\n", location_id, other_cost)
@@ -230,7 +233,8 @@ func getOtherCost(location_id string) float64 {
 	// Check for any errors during iteration
 	err = rows.Err()
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	return other_cost
 }
@@ -239,14 +243,16 @@ func getEnergyCost(location_id string) float64 {
 	// Prepare the SELECT statement with placeholders for the key values
 	stmt, err := db.Prepare("SELECT price FROM tbl_mining_cost_current WHERE cost_code = 'ENERGY' and location_id=?")
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	defer stmt.Close()
 
 	// Execute the SELECT statement with the key values
 	rows, err := stmt.Query(location_id)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	defer rows.Close()
 
@@ -261,7 +267,8 @@ func getEnergyCost(location_id string) float64 {
 
 	err = rows.Scan(&energy_cost)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 
 	logs.Printf("Location ID: %s, Energy Cost: %.2f\n", location_id, energy_cost)
@@ -269,7 +276,8 @@ func getEnergyCost(location_id string) float64 {
 	// Check for any errors during iteration
 	err = rows.Err()
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	return energy_cost
 }
@@ -305,7 +313,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			var input CurrentEnergyCost
 			err := json.Unmarshal(jsonData, &input)
 			if err != nil {
-				logs.Fatal("Error parsing JSON:", err)
+				logs.Println("Error parsing JSON:", err)
+				continue
 			}
 
 			// Create the OutputData struct
@@ -315,7 +324,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			// Convert OutputData struct to JSON
 			OutputJSON, err := json.Marshal(currentCost)
 			if err != nil {
-				logs.Fatalln("Error marshaling mining cost data:", err)
+				logs.Println("Error marshaling mining cost data:", err)
+				continue
 			}
 
 			// Print the response
@@ -328,7 +338,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			}
 			_, _, err = producer.SendMessage(message)
 			if err != nil {
-				logs.Fatalln("Error sending message to Kafka:", err)
+				logs.Println("Error sending message to Kafka:", err)
+				continue
 			}
 		default:
 		}

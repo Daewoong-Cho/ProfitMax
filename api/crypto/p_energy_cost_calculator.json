@@ -1,8 +1,8 @@
 {
-    "log_path": "/home/david/ProfitMax/log",
+    "log_path": "C:/ProfitMax/log",
     "log_file": "p_energy_cost_calculator.log",
     "symbol": "BTC",
-    "kafka_broker": "10.0.2.15:9092",
+    "kafka_broker": "ERES-GEN-005.qut.edu.au:9092",
     "topics": ["public.energyprice", "public.block.difficulty"],
     "publish_topic": "private.mining.energycost",
     "time_interval": 10,

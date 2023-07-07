@@ -1,9 +1,9 @@
 {
-    "log_path": "/home/david/ProfitMax/log",
+    "log_path": "C:/ProfitMax/log",
     "log_file": "p_mining_decision_maker.log",
     "symbol": "BTC",
     "url": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=AUD",
-    "kafka_broker": "10.0.2.15:9092",
+    "kafka_broker": "ERES-GEN-005.qut.edu.au:9092",
     "topics": ["private.mining.cost","private.mining.incentive", "public.cryptoprice"],
     "publish_topic": "private.mining.decision_maker"
 }

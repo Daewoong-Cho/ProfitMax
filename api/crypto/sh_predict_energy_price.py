@@ -98,7 +98,7 @@ def repeated_task(interval):
             model.add(Dense(units=1))
             model.compile(optimizer='adam', loss='mean_squared_error')
             # LSTM 모델 훈련
-            model.fit(X_train, y_train, epochs=50, batch_size=64)
+            model.fit(X_train, y_train, epochs=10, batch_size=32)
 
         else: 
             model = RandomForestRegressor(n_estimators=100, random_state=42)

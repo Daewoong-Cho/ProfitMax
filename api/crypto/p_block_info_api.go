@@ -94,10 +94,9 @@ func main() {
 	url := config.URL
 
 	// WebSocket connection setup
-	dialer := websocket.DefaultDialer
-	conn, _, err := dialer.Dial(url, nil)
+	conn, err := establishWebSocketConnection(url)
 	if err != nil {
-		logs.Fatal("Failed to establish WebSocket connection:", err)
+		log.Println("Failed to establish WebSocket connection:", err)
 	}
 	defer conn.Close()
 
@@ -105,28 +104,28 @@ func main() {
 	pingMessage := []byte(`{"op": "ping_block"}`)
 	err = conn.WriteMessage(websocket.TextMessage, pingMessage)
 	if err != nil {
-		logs.Fatal("Failed to send Ping message:", err)
+		logs.Println("Failed to send Ping message:", err)
 	}
 
 	// Send Subscribe message for Unconfirmed Transactions
 	subscribeMessage := []byte(`{"op": "unconfirmed_sub"}`)
 	err = conn.WriteMessage(websocket.TextMessage, subscribeMessage)
 	if err != nil {
-		logs.Fatal("Failed to send Subscribe message for Unconfirmed Transactions:", err)
+		logs.Println("Failed to send Subscribe message for Unconfirmed Transactions:", err)
 	}
 
 	// Send Subscribe message new Block
 	subscribeMessage2 := []byte(`{"op": "blocks_sub"}`)
 	err = conn.WriteMessage(websocket.TextMessage, subscribeMessage2)
 	if err != nil {
-		logs.Fatal("Failed to send Subscribe message for new Block:", err)
+		logs.Println("Failed to send Subscribe message for new Block:", err)
 	}
 
 	// Receive messages from the WebSocket
 	for {
 		_, receivedMessage, err := conn.ReadMessage()
 		if err != nil {
-			logs.Fatal("Failed to receive message:", err)
+			logs.Println("Failed to receive message:", err)
 			continue
 		}
 
@@ -139,7 +138,7 @@ func main() {
 		}
 		_, _, err = producer.SendMessage(message)
 		if err != nil {
-			logs.Fatalln("Error sending message to Kafka:", err)
+			logs.Println("Error sending message to Kafka:", err)
 			continue
 		}
 	}
@@ -150,6 +149,24 @@ func main() {
 	// if err != nil {
 	// 	log.Fatal("Failed to send Unsubscribe message:", err)
 
+}
+
+func establishWebSocketConnection(url string) (*websocket.Conn, error) {
+	dialer := websocket.DefaultDialer
+	var conn *websocket.Conn
+	var err error
+
+	for {
+		conn, _, err = dialer.Dial(url, nil)
+		if err == nil {
+			break
+		}
+
+		log.Println("Failed to establish WebSocket connection. Retrying in 5 seconds...")
+		time.Sleep(5 * time.Second)
+	}
+
+	return conn, err
 }
 
 func getValue(symbol string, url string, topic string) {
@@ -177,7 +194,7 @@ func getValue(symbol string, url string, topic string) {
 	// Convert OutputData struct to JSON
 	OutputJSON, err := json.Marshal(OutputData)
 	if err != nil {
-		logs.Fatalln("Error marshaling blockchain difficulty data:", err)
+		logs.Println("Error marshaling blockchain difficulty data:", err)
 		return
 	}
 
@@ -191,7 +208,7 @@ func getValue(symbol string, url string, topic string) {
 	}
 	_, _, err = producer.SendMessage(message)
 	if err != nil {
-		logs.Fatalln("Error sending message to Kafka:", err)
+		logs.Println("Error sending message to Kafka:", err)
 		return
 	}
 }

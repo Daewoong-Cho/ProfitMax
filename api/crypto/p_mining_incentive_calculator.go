@@ -262,7 +262,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			var input InputData
 			err := json.Unmarshal(jsonData, &input)
 			if err != nil {
-				logs.Fatal("Error parsing JSON:", err)
+				logs.Println("Error parsing JSON:", err)
+				continue
 			}
 
 			// Create the OutputData struct
@@ -271,7 +272,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			// Convert OutputData struct to JSON
 			OutputJSON, err := json.Marshal(currentReward)
 			if err != nil {
-				logs.Fatalln("Error marshaling blockchain subsidy data:", err)
+				logs.Println("Error marshaling blockchain subsidy data:", err)
+				continue
 			}
 
 			// Print the response
@@ -284,7 +286,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			}
 			_, _, err = producer.SendMessage(message)
 			if err != nil {
-				logs.Fatalln("Error sending message to Kafka:", err)
+				logs.Println("Error sending message to Kafka:", err)
+				continue
 			}
 		default:
 		}

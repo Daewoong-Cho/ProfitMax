@@ -44,7 +44,6 @@ import (
 	common "profitmax/util/common"
 	logger "profitmax/util/logger"
 	"sync"
-	"time"
 
 	"github.com/Shopify/sarama"
 	_ "github.com/go-sql-driver/mysql"
@@ -203,24 +202,27 @@ func insertTable(msg *sarama.ConsumerMessage) {
 	var input InputData
 	err := json.Unmarshal(jsonData, &input)
 	if err != nil {
-		logs.Fatal("Error parsing JSON:", err)
+		logs.Println("Error parsing JSON:", err)
+		return
 	}
 
 	if isPriceChanged(input.LocaionID, input.Currency, input.Price) {
 		// Insert the current data into the table
-		insertCurrentData := "INSERT INTO tbl_energy_price_current (location_id, currency_code, price, last_updated) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE price = ?, last_updated = ?"
-		_, err = db.Exec(insertCurrentData, input.LocaionID, input.Currency, input.Price, time.Now(), input.Price, time.Now())
+		insertCurrentData := "INSERT INTO tbl_energy_price_current (location_id, currency_code, price, last_updated) VALUES (?, ?, ?, now()) ON DUPLICATE KEY UPDATE price = ?, last_updated = now()"
+		_, err = db.Exec(insertCurrentData, input.LocaionID, input.Currency, input.Price, input.Price)
 		if err != nil {
-			logs.Fatal("Error inserting data into table:", err)
+			logs.Println("Error inserting data into table:", err)
+			return
 		}
 
 		//logs.Println("Data inserted successfully!")
 
 		// Insert the data into the table if the data changes
-		insertTickData := "INSERT INTO tbl_energy_price_tick (location_id, currency_code, price, timestamp) VALUES (?, ?, ?, ?)"
-		_, err = db.Exec(insertTickData, input.LocaionID, input.Currency, input.Price, time.Now())
+		insertTickData := "INSERT INTO tbl_energy_price_tick (location_id, currency_code, price, timestamp) VALUES (?, ?, ?, now())"
+		_, err = db.Exec(insertTickData, input.LocaionID, input.Currency, input.Price)
 		if err != nil {
-			logs.Fatal("Error inserting data into table:", err)
+			logs.Println("Error inserting data into table:", err)
+			return
 		}
 
 		//logs.Println("Data inserted successfully!")
@@ -231,14 +233,16 @@ func isPriceChanged(locationID string, currencyCode string, curr_price float64) 
 	// Prepare the SELECT statement with placeholders for the key values
 	stmt, err := db.Prepare("SELECT price, last_updated FROM tbl_energy_price_current WHERE location_id=? AND currency_code=?")
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return false
 	}
 	defer stmt.Close()
 
 	// Execute the SELECT statement with the key values
 	rows, err := stmt.Query(locationID, currencyCode)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return false
 	}
 	defer rows.Close()
 
@@ -254,7 +258,8 @@ func isPriceChanged(locationID string, currencyCode string, curr_price float64) 
 
 	err = rows.Scan(&price, &lastUpdated)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return false
 	}
 
 	logs.Printf("Location ID: %s, Currency Code: %s, Price: %.2f, Last Updated: %s\n", locationID, currencyCode, price, lastUpdated)
@@ -266,7 +271,8 @@ func isPriceChanged(locationID string, currencyCode string, curr_price float64) 
 	// Check for any errors during iteration
 	err = rows.Err()
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return false
 	}
 	return false
 }

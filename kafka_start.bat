@@ -1,0 +1,1 @@
+C:\ProfitMax\kafka\bin\windows\kafka-server-start.bat C:\ProfitMax\kafka\config\server.properties

@@ -233,7 +233,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			var input InputEnergyPriceData
 			err := json.Unmarshal(jsonData, &input)
 			if err != nil {
-				logs.Fatal("Error parsing JSON:", err)
+				logs.Println("Error parsing JSON:", err)
+				continue
 			}
 
 			// Create the OutputData struct
@@ -251,7 +252,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			// Convert OutputData struct to JSON
 			OutputJSON, err := json.Marshal(currentEnergyCost)
 			if err != nil {
-				logs.Fatalln("Error marshaling energy cost data:", err)
+				logs.Println("Error marshaling energy cost data:", err)
+				continue
 			}
 
 			// Print the response
@@ -264,7 +266,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			}
 			_, _, err = producer.SendMessage(message)
 			if err != nil {
-				logs.Fatalln("Error sending message to Kafka:", err)
+				logs.Println("Error sending message to Kafka:", err)
+				continue
 			}
 		case "public.block.difficulty":
 			//
@@ -275,7 +278,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			var input InputData
 			err := json.Unmarshal(jsonData, &input)
 			if err != nil {
-				logs.Fatal("Error parsing JSON:", err)
+				logs.Println("Error parsing JSON:", err)
+				continue
 			}
 
 			if currentEnergyCost.Difficulty == int64(input.Value) {
@@ -288,7 +292,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			// Convert OutputData struct to JSON
 			OutputJSON, err := json.Marshal(currentEnergyCost)
 			if err != nil {
-				logs.Fatalln("Error marshaling energy cost data:", err)
+				logs.Println("Error marshaling energy cost data:", err)
+				continue
 			}
 
 			// Print the response
@@ -301,7 +306,8 @@ func (h *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupSession,
 			}
 			_, _, err = producer.SendMessage(message)
 			if err != nil {
-				logs.Fatalln("Error sending message to Kafka:", err)
+				logs.Println("Error sending message to Kafka:", err)
+				continue
 			}
 		default:
 		}
@@ -317,14 +323,16 @@ func getDifficulty(blockchain string) int64 {
 	// Prepare the SELECT statement with placeholders for the key values
 	stmt, err := db.Prepare("SELECT difficulty, last_updated FROM tbl_blockchain_info WHERE blockchain=?")
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	defer stmt.Close()
 
 	// Execute the SELECT statement with the key values
 	rows, err := stmt.Query(blockchain)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	defer rows.Close()
 
@@ -340,7 +348,8 @@ func getDifficulty(blockchain string) int64 {
 
 	err = rows.Scan(&difficulty, &lastUpdated)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 
 	logs.Printf("Blockchain: %s, Difficulty: %.2f, Last Updated: %s\n", blockchain, difficulty, lastUpdated)
@@ -348,7 +357,8 @@ func getDifficulty(blockchain string) int64 {
 	// Check for any errors during iteration
 	err = rows.Err()
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	return difficulty
 }
@@ -357,14 +367,16 @@ func getEnergyPrice(LocationID string) float64 {
 	// Prepare the SELECT statement with placeholders for the key values
 	stmt, err := db.Prepare("SELECT price, last_updated FROM tbl_energy_price_current WHERE location_id=?")
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	defer stmt.Close()
 
 	// Execute the SELECT statement with the key values
 	rows, err := stmt.Query(LocationID)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	defer rows.Close()
 
@@ -380,7 +392,8 @@ func getEnergyPrice(LocationID string) float64 {
 
 	err = rows.Scan(&energyPrice, &lastUpdated)
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 
 	logs.Printf("Location ID: %s, Energy Price: %.2f, Last Updated: %s\n", LocationID, energyPrice, lastUpdated)
@@ -388,7 +401,8 @@ func getEnergyPrice(LocationID string) float64 {
 	// Check for any errors during iteration
 	err = rows.Err()
 	if err != nil {
-		logs.Fatal(err)
+		logs.Println(err)
+		return 0
 	}
 	return energyPrice
 }
@@ -426,6 +440,6 @@ func insertTable(location_id string, cost_code string, currency_code string, ene
 	insertCurrentData := "INSERT INTO tbl_mining_cost_current (location_id, cost_code, currency_code, price, last_updated) VALUES (?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE price = ?, last_updated = ?"
 	_, err := db.Exec(insertCurrentData, location_id, cost_code, currency_code, energyCost, time.Now(), energyCost, time.Now())
 	if err != nil {
-		logs.Fatal("Error inserting data into table:", err)
+		logs.Println("Error inserting data into table:", err)
 	}
 }
