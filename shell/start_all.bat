@@ -1,2 +1,36 @@
-p_block_info_api.bat
-p_block_info_db.bat
+start  C:\ProfitMax\zookeeper_start.bat
+timeout 15
+start C:\ProfitMax\kafka_start.bat
+timeout 5
+start C:\ProfitMax\shell\p_block_info_api.bat
+timeout 1
+start C:\ProfitMax\shell\p_block_info_db.bat
+timeout 1
+start C:\ProfitMax\shell\p_crypto_price_api.bat
+timeout 1
+start C:\ProfitMax\shell\p_crypto_price_db.bat
+timeout 1
+start C:\ProfitMax\shell\p_mining_decision_maker.bat
+timeout 1
+start C:\ProfitMax\shell\p_energy_price_api.bat
+timeout 1
+start C:\ProfitMax\shell\p_energy_price_db.bat
+timeout 1
+start C:\ProfitMax\shell\p_mining_incentive_calculator.bat
+timeout 1
+start C:\ProfitMax\shell\p_energy_cost_calculator.bat
+timeout 1
+start C:\ProfitMax\shell\p_mining_cost_calculator.bat
+timeout 1
+
+start C:\ProfitMax\shell\sh_predict_crypto_price_Linear.bat
+timeout 1
+start C:\ProfitMax\shell\sh_predict_crypto_price_LSTM.bat
+timeout 1
+start C:\ProfitMax\shell\sh_predict_crypto_price_RandomForest.bat
+timeout 1
+start C:\ProfitMax\shell\sh_predict_energy_price_Linear.bat
+timeout 1
+start C:\ProfitMax\shell\sh_predict_energy_price_LSTM.bat
+timeout 1
+start C:\ProfitMax\shell\sh_predict_energy_price_RandomForest.bat

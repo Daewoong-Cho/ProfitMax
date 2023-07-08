@@ -5,6 +5,7 @@ import datetime
 import argparse
 import time
 import numpy as np
+from sqlalchemy import create_engine
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
@@ -32,16 +33,13 @@ password = config['password']
 database = config['database']
 
 # MySQL 데이터베이스 연결 설정
-connection = pymysql.connect(
-    host=host,
-    port=port,
-    user=user,
-    password=password,
-    db=database
-)
+# SQLAlchemy를 사용하여 데이터베이스 연결을 설정합니다.
+# 여기에서는 MySQL 데이터베이스를 사용하는 예시입니다.
+database_uri = 'mysql+mysqlconnector://'+user+':' + password + '@' + host + ':' + str(port) + '/' + database 
+engine = create_engine(database_uri)
 
 # ArgumentParser 객체를 생성합니다.
-parser = argparse.ArgumentParser(description='예제 스크립트')
+parser = argparse.ArgumentParser(description='Price Prediction')
 
 # 인수를 추가합니다.
 parser.add_argument('--type', type=str, help='Data Type(Energy, Crypto)')
@@ -73,7 +71,7 @@ def repeated_task(interval):
             query = "SELECT timestamp, price FROM tbl_crypto_price_tick WHERE symbol = '" + symbol + "'"
 
 
-        data = pd.read_sql_query(query, connection)
+        data = pd.read_sql_query(query, engine)
 
         # 데이터 전처리
         data['timestamp'] = pd.to_datetime(data['timestamp'])  # timestamp 열을 datetime 형식으로 변환

@@ -120,3 +120,5 @@ sc create "p_mining_decision_maker" binPath= "C:\ProfitMax\shell\p_mining_decisi
 sc create "p_mining_incentive_calculator" binPath= "C:\ProfitMax\shell\p_mining_incentive_calculator.bat"
 
 
+python 3.11.4 패키지 설치
+py -m pip install sqlalchemy

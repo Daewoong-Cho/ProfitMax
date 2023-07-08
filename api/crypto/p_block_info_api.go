@@ -126,6 +126,7 @@ func main() {
 		_, receivedMessage, err := conn.ReadMessage()
 		if err != nil {
 			logs.Println("Failed to receive message:", err)
+			time.Sleep(1 * time.Second)
 			continue
 		}
 
@@ -189,6 +190,10 @@ func getValue(symbol string, url string, topic string) {
 	OutputData := OutputData{
 		Symbol: symbol,
 		Value:  value,
+	}
+
+	if value <= 0 {
+		return
 	}
 
 	// Convert OutputData struct to JSON
